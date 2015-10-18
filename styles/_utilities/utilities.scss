@@ -1,9 +1,9 @@
 /*-------------------------------*\
   Utilities
 \*-------------------------------*/
-///
-// Floats
-///
+/**
+* Floats
+*/
 .clearfix {
   @include clearfix();
 }
@@ -16,13 +16,31 @@
 .pull--left {
   @include pull--left();
 }
-//
-// Screenreaders
-//
+/**
+* Responsive utilities
+*/
+/* Responsive images */
+.img--responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Responsive content hide/show */
+.mobile--hide {
+  display: none;
+  @media screen and (min-width: 768px) {display: block;}
+}
+.mobile--show {
+  display: none;
+  @media screen and (max-width: 767px) {display: block;}
+}
+/**
+* Screenreaders
+*/
 .sr-only {
   @include sr_only();
 }
-// Always hide an element with the `hidden` HTML attribute (from PureCSS).
+/* Always hide an element with the `hidden` HTML attribute (from PureCSS). */
 [hidden] {
   display: none !important;
 }
@@ -35,45 +53,68 @@
 .text--truncate {
   @include text--truncate();
 }
-//
-// Text
-//
+/*---------------------------------*\
+  Typography
+\*---------------------------------*/
 .text--left {text-align: left;}
 .text--right {text-align: right;}
 .text--center {text-align: center;}
 .text--justify {text-align: justify;}
 .text--nowrap {white-space: nowrap;}
-
-// Responsive alignment
-// Extra Small screen < 544px
+/**
+* Sizing
+*/
+.text--big {
+  font-size: 2rem;
+  @media screen and (max-width: rem(768px)) {font-size: 1.5rem;}
+  @media screen and (max-width: rem(400px)) {font-size: 1.25rem;}
+}
+.text--bigger {
+  font-size: 5rem;
+  @media screen and (max-width: rem(768px)) {font-size: 3rem;}
+  @media screen and (max-width: rem(400px)) {font-size: 2.25rem;}
+}
+.text--medium {font-size: 1.25rem;}
+.text--small {font-size: .875rem;}
+.text--smaller {font-size: .75rem;}
+/**
+* Responsive alignment
+*/
+/* Extra Small screen < 544px */
 .text--xs--left {text-align: left;}
 .text--xs--right {text-align: right;}
 .text--xs--center {text-align: center;}
-// Small screen >= 544px
+/* Small screen >= 544px */
 @media (min-width: 34em) {
   .text--sm--left {text-align: left;}
   .text--sm--right {text-align: right;}
   .text--sm--center {text-align: center;}
 }
-// Medium screen >= 768px
+/* Medium screen >= 768px */
 @media (min-width: 48em) {
   .text--md--left {text-align: left;}
   .text--md--right {text-align: right;}
   .text--md--center {text-align: center;}
 }
-// Big screen >= 992px
+/* Big screen >= 992px */
 @media (min-width: 62em) {
   .text--lg--left {text-align: left;}
   .text--lg--right {text-align: right;}
   .text--lg--center {text-align: center;}
 }
-// Large screen >= 1200px
+/* Large screen >= 1200px */
 @media (min-width: 75em) {
   .text--xl--left {text-align: left;}
   .text--xl--right {text-align: right;}
   .text--xl--center {text-align: center;}
 }
-// Transformation
+/**
+* Transformation
+*/
+.text--capitalize {text-transform: capitalize;}
 .text--lowercase {text-transform: lowercase;}
 .text--uppercase {text-transform: uppercase;}
-.text--capitalize {text-transform: capitalize;}
+/**
+* Miscellaneous
+*/
+.no-js .lazy {display: none;}
