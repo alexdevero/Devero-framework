@@ -1,22 +1,22 @@
-// http://glyphsearch.com/
-// http://getbootstrap.com/components/
-// http://getbootstrap.com/css/
-// http://www.uipalette.net/
-// https://creativemarket.com/pankogut/221871-Biscuit-Food-Wordpress-Theme
-
+// Core variables and mixins
 @import '_settings/_settings.colors';
 @import '_settings/_settings.variables';
-
 @import '_tools/_tools.mixins';
 @import '_tools/_tools.placeholders';
 @import '_tools/_tools.functions';
 
+// Base
 @import '_base/_base.reset';
 @import '_base/_base.fonts';
 @import '_base/_base';
 
+// Layout
+@import '_layout/_layout.print';
 @import '_layout/_layout.grid';
 @import '_layout/_layout';
-@import '_layout/_layout.print';
 
+// Components
 @import '_modules/_modules';
+
+// Utility classes
+@import "_utilities/utilities";

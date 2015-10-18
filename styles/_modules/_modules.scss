@@ -6,7 +6,7 @@
   font-family: $font--quicksand;
   font-size: 1rem;
   cursor: pointer;
-  border-radius: $radius;
+  border-radius: $radius--small;
   @include transition(all);
 }
 .btn--full {

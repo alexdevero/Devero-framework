@@ -1,0 +1,4 @@
+// Mixin for transition
+@mixin transition($prop) {
+  transition: $prop $timing cubic-bezier(.4,0,1,1);
+}
