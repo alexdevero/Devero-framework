@@ -1,0 +1,30 @@
+/*---------------------------------*\
+  Hero
+\*---------------------------------*/
+.hero {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.hero--big {
+  min-height: 45rem;
+  height: 100%;
+}
+.hero--small {
+  min-height: 23.75rem;
+  @media screen and (max-width: rem(768px)) {min-height: 27rem;}
+}
+.hero__content {
+  @extend .vertical-align;
+  position: absolute;
+  padding-top: 4rem;
+  width: 100%;
+  color: #fff;
+}
+.hero--about {background-image: url(../images/hero--about.jpg);}
+.hero--main {background-image: url(../images/face-dark.jpg);}
+.hero--process {background-image: url(../images/hero--process.jpg);}
+.hero--terms {background-image: url(../images/hero--terms.jpg);}
+.hero--work {background-image: url(../images/hero--work.jpg);}

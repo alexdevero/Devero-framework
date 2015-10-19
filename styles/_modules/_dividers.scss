@@ -1,0 +1,12 @@
+/*---------------------------------*\
+  Divider
+\*---------------------------------*/
+.divider {
+  max-width: rem(32px);
+  height: 2px;
+  background-color: #1b1b1b;
+  border: 0;
+}
+.divider--primary {margin-bottom: 3rem;}
+.divider--secondary {margin-bottom: 1rem;}
+.divider--left {margin-left: 0;}
