@@ -26,391 +26,391 @@
 * Icono font
 * http://saeedalipoor.github.io/icono/
 */
-.icono-areaChart,
-.icono-barChart,
-.icono-book,
-.icono-book:after,
-.icono-book:before,
-.icono-bookmarkEmpty,
-.icono-bookmarkEmpty:before,
-.icono-camera,
-.icono-chain:after,
-.icono-chain:before,
-.icono-clock,
-.icono-commentEmpty,
-.icono-creditCard,
-.icono-crop,
-.icono-crop:before,
-.icono-display,
-.icono-document,
-.icono-eye,
-.icono-file,
-.icono-flag:after,
-.icono-flag:before,
-.icono-folder,
-.icono-forbidden,
-.icono-frown,
-.icono-frown:after,
-.icono-headphone,
-.icono-heart,
-.icono-heart:after,
-.icono-heart:before,
-.icono-home,
-.icono-home:after,
-.icono-home:before,
-.icono-imac,
-.icono-imacBold,
-.icono-image,
-.icono-infinity:after,
-.icono-infinity:before,
-.icono-iphone,
-.icono-iphoneBold,
-.icono-keyboard,
-.icono-macbook:before,
-.icono-macbookBold:before,
-.icono-mail,
-.icono-mail:before,
-.icono-market,
-.icono-market:after,
-.icono-meh,
-.icono-meh:after,
-.icono-microphone,
-.icono-microphone:before,
-.icono-mouse,
-.icono-mouse:before,
-.icono-nexus,
-.icono-paperClip,
-.icono-paperClip:after,
-.icono-paperClip:before,
-.icono-piano,
-.icono-pin,
-.icono-pin:before,
-.icono-power,
-.icono-rename,
-.icono-ruler,
-.icono-search,
-.icono-signIn,
-.icono-signIn:before,
-.icono-signOut,
-.icono-signOut:before,
-.icono-smile,
-.icono-smile:after,
-.icono-stroke,
-.icono-sync,
-.icono-tag,
-.icono-tag:after,
-.icono-terminal,
-.icono-trash,
-.icono-user,
-.icono-user:before,
-.icono-video,
-.icono-volumeHigh:after,
-.icono-volumeHigh:before,
-.icono-volumeLow:before,
-.icono-volumeMedium:before,
-.icono-youtube,
-.icono-youtube:before,
-[class*=icono-][class*=Circle],
-[class*=icono-][class*=Square],
-[class*=icono-check][class*=Circle] {  border: 2px solid }
-.icono-chain:after,
-.icono-chain:before,
-.icono-downArrow:before,
-.icono-dropper:before,
-.icono-flickr:after,
-.icono-flickr:before,
-.icono-indent:before,
-.icono-leftArrow:before,
-.icono-list:before,
-.icono-outdent:before,
-.icono-paperClip:before,
-.icono-rename:before,
-.icono-rightArrow:before,
-.icono-upArrow:before,
-.icono-video:before,
-.icono-volumeDecrease:after,
-.icono-volumeDecrease:before,
-.icono-volumeHigh:after,
-.icono-volumeHigh:before,
-.icono-volumeIncrease:after,
-.icono-volumeIncrease:before,
-.icono-volumeLow:before,
-.icono-volumeMedium:before,
-.icono-volumeMute:after,
-.icono-volumeMute:before,
+.icon--areaChart,
+.icon--barChart,
+.icon--book,
+.icon--book:after,
+.icon--book:before,
+.icon--bookmarkEmpty,
+.icon--bookmarkEmpty:before,
+.icon--camera,
+.icon--chain:after,
+.icon--chain:before,
+.icon--clock,
+.icon--commentEmpty,
+.icon--creditCard,
+.icon--crop,
+.icon--crop:before,
+.icon--display,
+.icon--document,
+.icon--eye,
+.icon--file,
+.icon--flag:after,
+.icon--flag:before,
+.icon--folder,
+.icon--forbidden,
+.icon--frown,
+.icon--frown:after,
+.icon--headphone,
+.icon--heart,
+.icon--heart:after,
+.icon--heart:before,
+.icon--home,
+.icon--home:after,
+.icon--home:before,
+.icon--imac,
+.icon--imacBold,
+.icon--image,
+.icon--infinity:after,
+.icon--infinity:before,
+.icon--iphone,
+.icon--iphoneBold,
+.icon--keyboard,
+.icon--macbook:before,
+.icon--macbookBold:before,
+.icon--mail,
+.icon--mail:before,
+.icon--market,
+.icon--market:after,
+.icon--meh,
+.icon--meh:after,
+.icon--microphone,
+.icon--microphone:before,
+.icon--mouse,
+.icon--mouse:before,
+.icon--nexus,
+.icon--paperClip,
+.icon--paperClip:after,
+.icon--paperClip:before,
+.icon--piano,
+.icon--pin,
+.icon--pin:before,
+.icon--power,
+.icon--rename,
+.icon--ruler,
+.icon--search,
+.icon--signIn,
+.icon--signIn:before,
+.icon--signOut,
+.icon--signOut:before,
+.icon--smile,
+.icon--smile:after,
+.icon--stroke,
+.icon--sync,
+.icon--tag,
+.icon--tag:after,
+.icon--terminal,
+.icon--trash,
+.icon--user,
+.icon--user:before,
+.icon--video,
+.icon--volumeHigh:after,
+.icon--volumeHigh:before,
+.icon--volumeLow:before,
+.icon--volumeMedium:before,
+.icon--youtube,
+.icon--youtube:before,
+[class*=icon--][class*=Circle],
+[class*=icon--][class*=Square],
+[class*=icon--check][class*=Circle] {border: 2px solid;}
+.icon--chain:after,
+.icon--chain:before,
+.icon--downArrow:before,
+.icon--dropper:before,
+.icon--flickr:after,
+.icon--flickr:before,
+.icon--indent:before,
+.icon--leftArrow:before,
+.icon--list:before,
+.icon--outdent:before,
+.icon--paperClip:before,
+.icon--rename:before,
+.icon--rightArrow:before,
+.icon--upArrow:before,
+.icon--video:before,
+.icon--volumeDecrease:after,
+.icon--volumeDecrease:before,
+.icon--volumeHigh:after,
+.icon--volumeHigh:before,
+.icon--volumeIncrease:after,
+.icon--volumeIncrease:before,
+.icon--volumeLow:before,
+.icon--volumeMedium:before,
+.icon--volumeMute:after,
+.icon--volumeMute:before,
 .stickCenterV {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
-.icono-cup:after,
-.icono-display:after,
-.icono-display:before,
-.icono-imac:after,
-.icono-imacBold:after,
-.icono-imacBold:before,
-.icono-iphone:after,
-.icono-iphone:before,
-.icono-macbook:before,
-.icono-macbookBold:before,
-.icono-market:after,
-.icono-microphone:after,
-.icono-microphone:before,
-.icono-mouse:after,
-.icono-mouse:before,
-.icono-search:before,
-.icono-sitemap:after,
-.icono-sitemap:before,
-.icono-tag:after,
-.icono-trash:before,
-.icono-user:before,
+.icon--cup:after,
+.icon--display:after,
+.icon--display:before,
+.icon--imac:after,
+.icon--imacBold:after,
+.icon--imacBold:before,
+.icon--iphone:after,
+.icon--iphone:before,
+.icon--macbook:before,
+.icon--macbookBold:before,
+.icon--market:after,
+.icon--microphone:after,
+.icon--microphone:before,
+.icon--mouse:after,
+.icon--mouse:before,
+.icon--search:before,
+.icon--sitemap:after,
+.icon--sitemap:before,
+.icon--tag:after,
+.icon--trash:before,
+.icon--user:before,
 .stickCenterH,
-[class*=icono-exclamation]:after,
-[class*=icono-textAlign].icono-textAlignCenter:after,
-[class*=icono-textAlign].icono-textAlignCenter:before {
+[class*=icon--exclamation]:after,
+[class*=icon--textAlign].icon--textAlignCenter:after,
+[class*=icon--textAlign].icon--textAlignCenter:before {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
-.icono-camera:before,
-.icono-clock:after,
-.icono-clock:before,
-.icono-document:after,
-.icono-eye:before,
-.icono-forbidden:before,
-.icono-gear:before,
-.icono-gplus:after,
-.icono-instagram:before,
-.icono-keyboard:before,
-.icono-pin:before,
-.icono-video:after,
-.icono-youtube:after,
+.icon--camera:before,
+.icon--clock:after,
+.icon--clock:before,
+.icon--document:after,
+.icon--eye:before,
+.icon--forbidden:before,
+.icon--gear:before,
+.icon--gplus:after,
+.icon--instagram:before,
+.icon--keyboard:before,
+.icon--pin:before,
+.icon--video:after,
+.icon--youtube:after,
 .stickCenter,
-[class*=icono-check]:before,
-[class*=icono-cross]:after,
-[class*=icono-cross]:before,
-[class*=icono-plus]:after,
-[class*=icono-plus]:before {
+[class*=icon--check]:before,
+[class*=icon--cross]:after,
+[class*=icon--cross]:before,
+[class*=icon--plus]:after,
+[class*=icon--plus]:before {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 .spin[class*=spin] {
   -webkit-animation: loading-spinner 2s infinite linear;
-  animation: loading-spinner 2s infinite linear;
+          animation: loading-spinner 2s infinite linear;
 }
-@-webkit-keyframes loading-spinner { 
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
+@-webkit-keyframes loading-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
-@keyframes loading-spinner { 
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
+@keyframes loading-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
-.icono-icono {
+.icon--icono {
+  margin: 11px 19px 19px 2px;
   width: 13px;
   height: 4px;
   box-shadow: inset 0 0 0 32px,0 16px,17px -18px;
   -webkit-transform: skew(0,30deg);
-  -ms-transform: skew(0,30deg);
-  transform: skew(0,30deg);
-  margin: 11px 19px 19px 2px;
+      -ms-transform: skew(0,30deg);
+          transform: skew(0,30deg);
 }
-.icono-icono:before {
+.icon--icono:before {
   position: absolute;
+  top: -10px;
+  right: -17px;
   width: 13px;
   height: 4px;
   box-shadow: inset 0 0 0 32px,0 16px,-17px -17px;
-  right: -17px;
-  top: -10px;
   -webkit-transform: skew(0,-48deg);
-  -ms-transform: skew(0,-48deg);
-  transform: skew(0,-48deg);
+      -ms-transform: skew(0,-48deg);
+          transform: skew(0,-48deg);
 }
-.icono-icono:after {
+.icon--icono:after {
   position: absolute;
+  top: -5px;
+  left: 0;
   width: 22px;
   height: 15px;
-  left: 0;
-  top: -5px;
   border: 4px solid;
   border-top-color: transparent;
   border-bottom: none;
-  -webkit-transform: skew(0,-30deg) scaleY(0.6);
-  -ms-transform: skew(0,-30deg) scaleY(0.6);
-  transform: skew(0,-30deg) scaleY(0.6);
+  -webkit-transform: skew(0,-30deg) scaleY(.6);
+      -ms-transform: skew(0,-30deg) scaleY(.6);
+          transform: skew(0,-30deg) scaleY(.6);
 }
-.icono-home {
+.icon--home {
+  margin: 15px 6px 3px;
   width: 22px;
   height: 16px;
   border-top: none;
-  margin: 15px 6px 3px;
 }
-.icono-home:before {
+.icon--home:before {
+  position: absolute;
+  top: -7px;
+  left: -2px;
   width: 18px;
   height: 18px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: absolute;
-  left: -2px;
-  top: -7px;
   border-right-color: transparent;
   border-bottom-color: transparent;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-home:after {
+.icon--home:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   width: 6px;
   height: 10px;
-  bottom: 0;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
   border-width: 1px;
   border-bottom: none;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
-.icono-mail {
-  width: 28px;
-  height: 18px;
+.icon--mail {
   overflow: hidden;
   margin: 8px 3px;
+  width: 28px;
+  height: 18px;
 }
-.icono-mail:before {
+.icon--mail:before {
   position: absolute;
+  top: -20px;
+  left: -3px;
   width: 24.62px;
   height: 24.62px;
   -webkit-transform: rotate(50deg) skew(-10deg,-20deg);
-  -ms-transform: rotate(50deg) skew(-10deg,-20deg);
-  transform: rotate(50deg) skew(-10deg,-20deg);
-  top: -20px;
-  left: -3px;
+      -ms-transform: rotate(50deg) skew(-10deg,-20deg);
+          transform: rotate(50deg) skew(-10deg,-20deg);
 }
-.icono-rss {
-  width: 22px;
-  height: 22px;
+.icon--rss {
   overflow: hidden;
   margin: 6px;
+  width: 22px;
+  height: 22px;
 }
-.icono-rss:after,
-.icono-rss:before {
+.icon--rss:after,
+.icon--rss:before {
   position: absolute;
   border-radius: 50%;
 }
-.icono-rss:before {
+.icon--rss:before {
+  bottom: 0;
+  left: 0;
   width: 6px;
   height: 6px;
   box-shadow: 0 0 32px inset;
-  left: 0;
-  bottom: 0;
 }
-.icono-rss:after {
+.icon--rss:after {
+  top: 15%;
+  right: 15%;
   width: 27px;
   height: 27px;
-  right: 15%;
-  top: 15%;
   border: 4px solid transparent;
   box-shadow: inset 0 0 0 2px,0 0 0 2px;
 }
-.icono-bars,
-.icono-hamburger {
+.icon--bars,
+.icon--hamburger {
+  margin: 16px 7px;
   width: 20px;
   height: 2px;
   box-shadow: inset 0 0 0 32px,0 -6px,0 6px;
-  margin: 16px 7px;
 }
-[class*=icono-cross],
-[class*=icono-plus] {
+[class*=icon--cross],
+[class*=icon--plus] {
+  margin: 2px;
   width: 30px;
   height: 30px;
-  margin: 2px;
 }
-[class*=icono-check]:before,
-[class*=icono-cross]:after,
-[class*=icono-cross]:before,
-[class*=icono-plus]:after,
-[class*=icono-plus]:before {  box-shadow: inset 0 0 0 32px }
-[class*=icono-check]:before,
-[class*=icono-cross]:before,
-[class*=icono-plus]:before {
+[class*=icon--check]:before,
+[class*=icon--cross]:after,
+[class*=icon--cross]:before,
+[class*=icon--plus]:after,
+[class*=icon--plus]:before {box-shadow: inset 0 0 0 32px;}
+[class*=icon--check]:before,
+[class*=icon--cross]:before,
+[class*=icon--plus]:before {
   width: 20px;
   height: 2px;
 }
-[class*=icono-cross]:after,
-[class*=icono-plus]:after {
+[class*=icon--cross]:after,
+[class*=icon--plus]:after {
   height: 20px;
   width: 2px;
 }
-[class*=icono-cross][class*=Circle]:before,
-[class*=icono-plus][class*=Circle]:before {  width: 18px }
-[class*=icono-cross][class*=Circle]:after,
-[class*=icono-plus][class*=Circle]:after {  height: 18px }
-.icono-cross,
-.icono-crossCircle {
+[class*=icon--cross][class*=Circle]:before,
+[class*=icon--plus][class*=Circle]:before {width: 18px;}
+[class*=icon--cross][class*=Circle]:after,
+[class*=icon--plus][class*=Circle]:after {height: 18px;}
+.icon--cross,
+.icon--crossCircle {
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-[class*=icono-check] {
+[class*=icon--check] {
+  margin: 3px 0 3px 6px;
   width: 28px;
   height: 28px;
-  margin: 3px 0 3px 6px;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-[class*=icono-check]:after,
-[class*=icono-check]:before {  box-shadow: inset 0 0 0 32px }
-[class*=icono-check]:after {
+[class*=icon--check]:after,
+[class*=icon--check]:before {box-shadow: inset 0 0 0 32px;}
+[class*=icon--check]:after {
   position: absolute;
-  height: 12px;
-  width: 2px;
-  left: 4px;
   bottom: 14px;
+  left: 4px;
+  width: 2px;
+  height: 12px;
 }
-[class*=icono-check][class*=Circle] {
-  border-radius: 50%;
+[class*=icon--check][class*=Circle] {
+  margin: 2px;
   width: 30px;
   height: 30px;
-  margin: 2px;
+  border-radius: 50%;
 }
-[class*=icono-check][class*=Circle]:before {
-  width: 14px;
+[class*=icon--check][class*=Circle]:before {
   top: 15px;
   left: 14px;
+  width: 14px;
 }
-[class*=icono-check][class*=Circle]:after {
-  height: 8px;
-  left: 7px;
+[class*=icon--check][class*=Circle]:after {
   bottom: 10px;
+  left: 7px;
+  height: 8px;
 }
-.icono-power {
+.icon--power {
+  margin: 6px;
   width: 22px;
   height: 22px;
-  border-radius: 50%;
   border-top-color: transparent;
-  margin: 6px;
+  border-radius: 50%;
 }
-.icono-power:before {
+.icon--power:before {
   position: absolute;
   top: -15%;
   left: 8px;
@@ -418,277 +418,277 @@
   height: 60%;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-heart {
+.icon--heart {
+  margin: 9px 7px 5px;
   width: 20px;
   height: 20px;
   border-top-color: transparent;
   border-left-color: transparent;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
   border-radius: 4px 0;
-  margin: 9px 7px 5px;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-heart:after,
-.icono-heart:before {  position: absolute }
-.icono-heart:before {
+.icon--heart:after,
+.icon--heart:before {position: absolute }
+.icon--heart:before {
+  bottom: -2px;
+  left: -10px;
   width: 8px;
   height: 14px;
-  left: -10px;
-  bottom: -2px;
-  border-radius: 20px 0 0 20px;
   border-right-color: transparent;
+  border-radius: 20px 0 0 20px;
 }
-.icono-heart:after {
+.icon--heart:after {
+  top: -10px;
+  right: -2px;
   width: 14px;
   height: 8px;
-  right: -2px;
-  top: -10px;
-  border-radius: 20px 20px 0 0;
   border-bottom-color: transparent;
+  border-radius: 20px 20px 0 0;
 }
-.icono-infinity {
+.icon--infinity {
+  margin: 9px 1px;
   width: 32px;
   height: 16px;
-  margin: 9px 1px;
 }
-.icono-infinity:after,
-.icono-infinity:before {
+.icon--infinity:after,
+.icon--infinity:before {
+  position: absolute;
   width: 10px;
   height: 10px;
-  position: absolute;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-infinity:before {
+.icon--infinity:before {
   left: 0;
   border-radius: 32px 0 32px 32px;
 }
-.icono-infinity:after {
+.icon--infinity:after {
   right: 1px;
   border-radius: 32px 32px 32px 0;
 }
-.icono-flag {
+.icon--flag {
+  margin: 5px 6px 4px;
   width: 22px;
   height: 25px;
   border-left: 3px solid;
-  margin: 5px 6px 4px;
 }
-.icono-flag:after,
-.icono-flag:before {
+.icon--flag:after,
+.icon--flag:before {
   position: absolute;
   width: 9px;
   height: 8px;
 }
-.icono-flag:before {
-  left: -2px;
+.icon--flag:before {
   top: 1px;
-  border-radius: 0 2px 0 0;
+  left: -2px;
   border-right-width: 3px;
+  border-radius: 0 2px 0 0;
 }
-.icono-flag:after {
-  width: 5px;
-  left: 9px;
+.icon--flag:after {
   top: 4px;
+  left: 9px;
+  width: 5px;
   border-left-width: 3px;
   border-radius: 2px 2px 0;
 }
-.icono-file {
+.icon--file {
+  margin: 1px 4px;
   width: 26px;
   height: 32px;
   border-radius: 0 12px 0 0;
-  margin: 1px 4px;
 }
-.icono-file:before {
+.icon--file:before {
   position: absolute;
   top: -2px;
   right: -2px;
-  border-style: solid;
   width: 0;
   height: 0;
   border-width: 5px;
+  border-style: solid;
   border-top-color: transparent;
   border-right-color: transparent;
 }
-.icono-document {
+.icon--document {
+  margin: 1px 4px;
   width: 26px;
   height: 32px;
   border-radius: 0 0 0 10px;
-  margin: 1px 4px;
 }
-.icono-document:before {
+.icon--document:before {
   position: absolute;
+  bottom: -3px;
+  left: -3px;
   width: 0;
   height: 0;
-  left: -3px;
-  bottom: -3px;
   border-width: 5px;
   border-style: solid;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.icono-document:after {
+.icon--document:after {
   width: 13px;
   height: 2px;
   box-shadow: inset 0 0 0 32px,0 -5px 0 0,0 5px 0 0;
 }
-.icono-folder {
+.icon--folder {
+  margin: 8px 2px 4px 14px;
   width: 18px;
   height: 22px;
   border-left-width: 0;
   border-radius: 0 3px 3px 0;
-  margin: 8px 2px 4px 14px;
 }
-.icono-folder:before {
+.icon--folder:before {
   position: absolute;
+  bottom: -2px;
+  left: -12px;
   width: 12px;
   height: 20px;
-  left: -12px;
-  bottom: -2px;
   border-width: 0 0 2px 2px;
   border-style: solid;
   border-radius: 0 0 0 3px;
 }
-.icono-folder:after {
+.icon--folder:after {
   position: absolute;
+  top: -7px;
+  left: -12px;
   width: 10px;
   height: 5px;
-  left: -12px;
-  top: -7px;
   border-width: 2px 2px 0;
   border-style: solid;
   border-radius: 3px 3px 0 0;
 }
-.icono-pin {
+.icon--pin {
+  margin: 1px 4px 7px;
   width: 26px;
   height: 26px;
   border-radius: 50% 50% 50% 0;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin: 1px 4px 7px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-pin:before {
+.icon--pin:before {
   position: absolute;
   width: 6px;
   height: 6px;
   border-radius: 50%;
 }
-.icono-frown,
-.icono-meh,
-.icono-smile {
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
+.icon--frown,
+.icon--meh,
+.icon--smile {
   margin: 2px;
-}
-.icono-frown:before,
-.icono-meh:before,
-.icono-smile:before {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  box-shadow: 8px 0 0 0,0 0 0 2px inset;
-  height: 4px;
-  width: 4px;
-  left: 7px;
+}
+.icon--frown:before,
+.icon--meh:before,
+.icon--smile:before {
   position: absolute;
   top: 27%;
-}
-.icono-frown:after,
-.icono-meh:after,
-.icono-smile:after {
+  left: 7px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  height: 16px;
-  left: 50%;
+  box-shadow: 8px 0 0 0,0 0 0 2px inset;
+}
+.icon--frown:after,
+.icon--meh:after,
+.icon--smile:after {
   position: absolute;
   top: 6%;
+  left: 50%;
   width: 16px;
+  height: 16px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
-.icono-eye {
+.icon--eye {
+  margin: 3px;
+  width: 28px;
+  height: 28px;
+  border-width: 2px 1px 1px 2px;
   border-radius: 80% 20%;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border-width: 2px 1px 1px 2px;
-  height: 28px;
-  width: 28px;
-  margin: 3px;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-eye:before {
+.icon--eye:before {
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   box-shadow: 0 -3px 0 3px inset;
-  height: 11px;
-  width: 11px;
 }
-.icono-sliders {
-  height: 30px;
-  width: 30px;
+.icon--sliders {
   margin: 2px;
+  width: 30px;
+  height: 30px;
 }
-.icono-sliders:after,
-.icono-sliders:before {
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 50%;
+.icon--sliders:after,
+.icon--sliders:before {
   position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
-.icono-sliders:before {
+.icon--sliders:before {
+  top: 67%;
   width: 8px;
   height: 7px;
   border-radius: 2px;
-  top: 67%;
   box-shadow: inset 0 0 0 32px,10px -10px,-10px -14px;
 }
-.icono-sliders:after {
+.icon--sliders:after {
   position: absolute;
   width: 2px;
   height: 100%;
   box-shadow: inset 0 0 0 32px,10px 0,-10px 0;
 }
-.icono-share {
-  height: 9px;
+.icon--share {
+  margin: 12px 24px 13px 1px;
   width: 9px;
+  height: 9px;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px,22px -11px 0 0,22px 11px 0 0;
-  margin: 12px 24px 13px 1px;
 }
-.icono-share:after,
-.icono-share:before {
+.icon--share:after,
+.icon--share:before {
   position: absolute;
+  left: 0;
   width: 24px;
   height: 2px;
   box-shadow: inset 0 0 0 32px;
-  left: 0;
 }
-.icono-share:before {
+.icon--share:before {
   top: -2px;
   -webkit-transform: rotate(-25deg);
-  -ms-transform: rotate(-25deg);
-  transform: rotate(-25deg);
+      -ms-transform: rotate(-25deg);
+          transform: rotate(-25deg);
 }
-.icono-share:after {
+.icon--share:after {
   top: 9px;
   -webkit-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
-  transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+          transform: rotate(25deg);
 }
-.icono-sync {
+.icon--sync {
+  margin: 4px;
   width: 26px;
   height: 26px;
-  border-radius: 50%;
   border-right-color: transparent;
   border-left-color: transparent;
-  margin: 4px;
+  border-radius: 50%;
 }
-.icono-sync:after,
-.icono-sync:before {
+.icon--sync:after,
+.icon--sync:before {
   position: absolute;
   width: 0;
   height: 0;
@@ -698,195 +698,199 @@
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.icono-sync:before {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  right: -7px;
+.icon--sync:before {
   top: 0;
+  right: -7px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-sync:after {
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
-  left: -7px;
+.icon--sync:after {
   bottom: 0;
+  left: -7px;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
-.icono-reset {
+.icon--reset {
+  margin: 4px;
   width: 26px;
   height: 26px;
-  border-radius: 50%;
   border-width: 2px;
   border-style: solid;
   border-left-color: transparent;
-  margin: 4px;
+  border-radius: 50%;
 }
-.icono-reset:before {
+.icon--reset:before {
   position: absolute;
+  bottom: 0;
+  left: -7px;
   width: 0;
   height: 0;
-  left: -7px;
-  bottom: 0;
   border-width: 6px;
   border-style: solid;
   border-right-color: transparent;
-  border-left-color: transparent;
   border-bottom-color: transparent;
+  border-left-color: transparent;
   -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
-.icono-gear {
+.icon--gear {
+  margin: 1px;
   width: 32px;
   height: 32px;
   border: 3px dotted;
   border-radius: 50%;
-  margin: 1px;
 }
-.icono-gear:before {
+.icon--gear:before {
+  box-sizing: border-box;
   width: 22px;
   height: 22px;
-  box-shadow: 0 0 0 3px,0 0 0 2px inset;
-  border-radius: 50%;
   border: 6px solid transparent;
-  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px,0 0 0 2px inset;
 }
-.icono-signIn {
+.icon--signIn {
+  margin: 1px 8px;
   width: 18px;
   height: 32px;
   border-left: none;
   border-radius: 0 3px 3px 0;
-  margin: 1px 8px;
 }
-.icono-signIn:before {
+.icon--signIn:before {
   position: absolute;
+  top: 7px;
+  left: -10px;
   width: 11px;
   height: 11px;
-  left: -10px;
-  top: 7px;
   border-bottom: none;
   border-left: none;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
   border-radius: 0 4px 0 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-signOut {
+.icon--signOut {
+  margin: 1px 8px;
   width: 18px;
   height: 32px;
   border-right: none;
   border-radius: 3px 0 0 3px;
-  margin: 1px 8px;
 }
-.icono-signOut:before {
+.icon--signOut:before {
   position: absolute;
+  top: 7px;
+  right: -2px;
   width: 11px;
   height: 11px;
-  right: -2px;
-  top: 7px;
   border-bottom: none;
   border-left: none;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
   border-radius: 0 4px 0 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-support {
+.icon--support {
+  margin: 4px;
   width: 26px;
   height: 26px;
   border: 5px solid transparent;
-  box-shadow: 0 0 0 2px inset,0 0 0 2px;
   border-radius: 50%;
-  margin: 4px;
+  box-shadow: 0 0 0 2px inset,0 0 0 2px;
 }
-.icono-support:before {
+.icon--support:before {
   position: absolute;
-  width: 7px;
-  height: 7px;
   top: -3px;
   left: -3px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  box-shadow: inset 0 0 0 32px,21px 0 0 0;
-}
-.icono-support:after {
-  position: absolute;
   width: 7px;
   height: 7px;
+  box-shadow: inset 0 0 0 32px,21px 0 0 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.icon--support:after {
+  position: absolute;
   top: -3px;
   right: -3px;
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
+  width: 7px;
+  height: 7px;
   box-shadow: inset 0 0 0 32px,21px 0 0 0;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
-.icono-dropper {
+.icon--dropper {
+  margin: 12px -2px 8px -4px;
   width: 40px;
   height: 14px;
   border-width: 3px;
   border-style: solid;
-  border-right: none;
   border-top-color: transparent;
+  border-right: none;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  box-shadow: -9px 0 0 2px inset,0 0 0 2px inset;
   border-radius: 50% 6px 6px 50%;
+  box-shadow: -9px 0 0 2px inset,0 0 0 2px inset;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin: 12px -2px 8px -4px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-dropper:before {
+.icon--dropper:before {
+  right: 10px;
   width: 4px;
   height: 14px;
-  right: 10px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-tiles {
+.icon--tiles {
+  margin: 15px;
   width: 4px;
   height: 4px;
   box-shadow: 0 -8px 0,-8px -8px 0,8px -8px 0,0 0 0 32px inset,-8px 0 0,8px 0 0,0 8px 0,-8px 8px 0,8px 8px 0;
-  margin: 15px;
 }
-.icono-list {
+.icon--list {
+  margin: 15px 26px 15px 4px;
   width: 4px;
   height: 4px;
   box-shadow: inset 0 0 0 32px,0 -8px 0 0,0 8px 0 0;
-  margin: 15px 26px 15px 4px;
 }
-.icono-list:before {
+.icon--list:before {
+  left: 8px;
   width: 18px;
   height: 4px;
-  left: 8px;
   box-shadow: inset 0 0 0 32px,0 -8px 0 0,0 8px 0 0;
 }
-.icono-chain {
+.icon--chain {
+  margin: 16px 9px;
   width: 16px;
   height: 2px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin: 16px 9px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-chain:after,
-.icono-chain:before {
+.icon--chain:after,
+.icon--chain:before {
   width: 12px;
   height: 8px;
   border-radius: 4px;
 }
-.icono-chain:before {  right: -10px }
-.icono-chain:after {  left: -10px }
-.icono-youtube {
+.icon--chain:before {
+  right: -10px;
+}
+.icon--chain:after {
+  left: -10px;
+}
+.icon--youtube {
+  margin: 6px 1px;
+  width: 32px;
+  height: 22.29px;
   border-right-color: transparent;
   border-left-color: transparent;
   border-radius: 10px;
-  width: 32px;
-  height: 22.29px;
-  margin: 6px 1px;
 }
-.icono-youtube:before {
+.icon--youtube:before {
   position: absolute;
   top: 0;
   right: 0;
@@ -896,7 +900,7 @@
   border-bottom-color: transparent;
   border-radius: 6px/3px;
 }
-.icono-youtube:after {
+.icon--youtube:after {
   width: 0;
   height: 0;
   border-width: 4px 0 4px 8px;
@@ -904,369 +908,369 @@
   border-top-color: transparent;
   border-bottom-color: transparent;
 }
-.icono-rename {
+.icon--rename {
+  margin: 12px 4px;
   width: 26px;
   height: 10px;
-  border-color: transparent;
   border-width: 3px;
+  border-color: transparent;
   box-shadow: 0 0 0 1px,11px 0 0 0 inset;
-  margin: 12px 4px;
 }
-.icono-rename:before {
+.icon--rename:before {
+  left: 9px;
   width: 1px;
   height: 18px;
-  left: 9px;
   border-width: 2px 4px;
   border-style: solid;
   border-right-color: transparent;
   border-left-color: transparent;
   box-shadow: 0 0 0 1px inset;
 }
-.icono-search {
+.icon--search {
+  margin: 4px 4px 8px 8px;
   width: 22px;
   height: 22px;
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  margin: 4px 4px 8px 8px;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-search:before {
+.icon--search:before {
+  top: 19px;
   width: 4px;
   height: 11px;
-  box-shadow: inset 0 0 0 32px;
-  top: 19px;
   border-radius: 0 0 1px 1px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-book {
+.icon--book {
+  margin: 10px 4px 2px;
   width: 26px;
   height: 22px;
-  border-radius: 0 0 0 6px;
   border-top: none;
-  margin: 10px 4px 2px;
+  border-radius: 0 0 0 6px;
 }
-.icono-book:before {
+.icon--book:before {
   position: absolute;
+  top: -5px;
+  left: -2px;
+  box-sizing: border-box;
   width: 24px;
   height: 7px;
-  box-sizing: border-box;
   border-top: none;
   border-right: none;
-  left: -2px;
-  top: -5px;
   border-radius: 0 0 0 6px;
 }
-.icono-book:after {
+.icon--book:after {
   position: absolute;
+  top: -8px;
+  left: -2px;
+  box-sizing: border-box;
   width: 24px;
   height: 8px;
-  box-sizing: border-box;
-  left: -2px;
-  top: -8px;
   border-bottom: none;
   border-radius: 6px 0 0;
 }
-.icono-forbidden {
+.icon--forbidden {
+  margin: 3px;
   width: 28px;
   height: 28px;
   border-width: 3px;
   border-radius: 50%;
-  margin: 3px;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-forbidden:before {
+.icon--forbidden:before {
   width: 24px;
   height: 4px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-trash {
+.icon--trash {
+  margin: 9px 6px 3px;
   width: 22px;
   height: 22px;
-  border-radius: 0 0 3px 3px;
   border-top: none;
-  margin: 9px 6px 3px;
+  border-radius: 0 0 3px 3px;
 }
-.icono-trash:before {
+.icon--trash:before {
+  top: -6px;
   width: 8px;
   height: 2px;
-  top: -6px;
   box-shadow: inset 0 0 0 32px,-10px 2px 0 0,-6px 2px 0 0,0 2px 0 0,6px 2px 0 0,10px 2px 0 0;
 }
-.icono-keyboard {
+.icon--keyboard {
+  margin: 6px 1px;
   width: 32px;
   height: 22px;
   border-radius: 3px;
-  margin: 6px 1px;
 }
-.icono-keyboard:before {
+.icon--keyboard:before {
   width: 2px;
   height: 2px;
   box-shadow: -2px -4px 0,-6px -4px 0,-10px -4px 0,2px -4px 0,6px -4px 0,8px -4px 0,10px -4px 0,-4px 0 0,-8px 0 0,-10px 0 0,inset 0 0 0 32px,4px 0 0,8px 0 0,10px 0 0,4px 4px 0,2px 4px 0,0 4px 0,-2px 4px 0,-6px 4px 0,-10px 4px 0,6px 4px 0,10px 4px 0;
 }
-.icono-mouse {
+.icon--mouse {
+  margin: 1px 5px 1px 6px;
   width: 23px;
   height: 32px;
   border-radius: 11px 11px 12px 12px;
-  margin: 1px 5px 1px 6px;
 }
-.icono-mouse:before {
+.icon--mouse:before {
+  top: 5px;
   width: 1px;
   height: 6px;
-  border-radius: 2px;
-  border-color: transparent;
   border-width: 1px;
-  top: 5px;
+  border-color: transparent;
+  border-radius: 2px;
   box-shadow: 0 0 0 1px,0 0 0 2px inset;
 }
-.icono-mouse:after {
+.icon--mouse:after {
+  top: 0;
   width: 1px;
   height: 4px;
-  top: 0;
   box-shadow: inset 0 0 0 32px,0 13px 0 0;
 }
-.icono-user {
+.icon--user {
+  margin: 18px 1px 2px;
   width: 32px;
   height: 14px;
   border-radius: 64px 64px 0 0/64px;
-  margin: 18px 1px 2px;
 }
-.icono-user:before {
+.icon--user:before {
+  top: -20px;
   width: 12px;
   height: 12px;
-  top: -20px;
   border-radius: 50%;
 }
-.icono-crop {
-  width: 21px;
-  height: 21px;
-  border-left: none;
-  border-bottom: none;
+.icon--crop {
   margin: 9px 9px 4px 4px;
-}
-.icono-crop:before {
-  position: absolute;
   width: 21px;
   height: 21px;
+  border-bottom: none;
+  border-left: none;
+}
+.icon--crop:before {
+  position: absolute;
   top: -7px;
   right: -7px;
+  box-sizing: border-box;
+  width: 21px;
+  height: 21px;
   border-top: none;
   border-right: none;
-  box-sizing: border-box;
 }
-.icono-crop:after {
+.icon--crop:after {
   position: absolute;
+  top: 3px;
+  left: 2px;
   width: 27px;
   height: 1px;
-  left: 2px;
-  top: 3px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-display {
+.icon--display {
+  margin: 4px 4px 8px;
   width: 26px;
   height: 22px;
-  margin: 4px 4px 8px;
 }
-.icono-display:before {
+.icon--display:before {
+  bottom: -5px;
   width: 4px;
   height: 3px;
-  bottom: -5px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-display:after {
+.icon--display:after {
+  bottom: -6px;
   width: 14px;
   height: 2px;
-  bottom: -6px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-imac {
+.icon--imac {
+  margin: 3px 3px 7px;
   width: 28px;
   height: 24px;
   border-width: 2px 2px 6px;
   border-color: transparent;
   border-radius: 3px;
   box-shadow: 0 0 0 1px,0 0 0 1px inset;
-  margin: 3px 3px 7px;
 }
-.icono-imac:before {
+.icon--imac:before {
   position: absolute;
-  height: 4px;
   right: -3px;
-  left: -3px;
   bottom: -6px;
-  box-shadow: inset 0 0 0 32px;
+  left: -3px;
+  height: 4px;
   border-radius: 0 0 3px 3px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-imac:after {
+.icon--imac:after {
+  bottom: -12px;
   width: 9px;
   height: 7px;
-  box-shadow: inset 0 0 0 32px;
-  bottom: -12px;
   border-radius: 32px 32px 0 0/64px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-imacBold {
+.icon--imacBold {
+  margin: 4px 3px 8px;
   width: 28px;
   height: 22px;
   border-radius: 4px;
-  margin: 4px 3px 8px;
 }
-.icono-imacBold:before {
+.icon--imacBold:before {
+  bottom: -6px;
   width: 9px;
   height: 7px;
-  box-shadow: inset 0 0 0 32px;
-  bottom: -6px;
   border-radius: 32px 32px 0 0/64px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-imacBold:after {
+.icon--imacBold:after {
+  bottom: 0;
   width: 24px;
   height: 3px;
   box-shadow: inset 0 0 0 32px;
-  bottom: 0;
 }
-.icono-iphone {
+.icon--iphone {
+  margin: 2px 8px 1px 7px;
   width: 19px;
   height: 31px;
-  border-radius: 3px;
   border-width: 5px 1px;
   border-color: transparent;
+  border-radius: 3px;
   box-shadow: 0 0 0 1px,0 0 0 1px inset;
-  margin: 2px 8px 1px 7px;
 }
-.icono-iphone:after,
-.icono-iphone:before {  box-shadow: inset 0 0 0 32px }
-.icono-iphone:before {
+.icon--iphone:after,
+.icon--iphone:before {box-shadow: inset 0 0 0 32px;}
+.icon--iphone:before {
+  top: -3px;
   width: 3px;
   height: 1px;
-  top: -3px;
 }
-.icono-iphone:after {
+.icon--iphone:after {
+  bottom: -4px;
   width: 3px;
   height: 3px;
-  bottom: -4px;
   border-radius: 50%;
 }
-.icono-iphoneBold {
+.icon--iphoneBold {
+  margin: 1px 7px;
   width: 20px;
   height: 32px;
-  margin: 1px 7px;
-  border-radius: 4px;
   border-width: 5px 2px;
+  border-radius: 4px;
 }
-.icono-macbook {
+.icon--macbook {
+  margin: 25px 1px 7px;
   width: 32px;
   height: 2px;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 0 0 32px 32px/3px;
-  margin: 25px 1px 7px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-macbook:before {
+.icon--macbook:before {
+  bottom: 2px;
   width: 20px;
   height: 14px;
-  bottom: 2px;
   border-width: 3px 1px 1px;
   border-color: transparent;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 0 0 1px,0 0 0 1px inset;
 }
-.icono-macbookBold {
+.icon--macbookBold {
+  margin: 25px 1px 7px;
   width: 32px;
   height: 2px;
   box-shadow: inset 0 0 0 32px;
-  margin: 25px 1px 7px;
 }
-.icono-macbookBold:before {
+.icon--macbookBold:before {
+  bottom: 2px;
   width: 20px;
   height: 14px;
-  bottom: 2px;
   border-width: 3px 2px 1px;
   border-radius: 3px 3px 0 0;
 }
-.icono-image {
+.icon--image {
+  overflow: hidden;
+  margin: 4px 2px;
   width: 30px;
   height: 26px;
   border-radius: 3px;
-  overflow: hidden;
-  margin: 4px 2px;
 }
-.icono-image:before {
+.icon--image:before {
   position: absolute;
+  top: 14px;
+  left: -2px;
   width: 20px;
   height: 20px;
-  left: -2px;
-  top: 14px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
   box-shadow: inset 0 0 0 32px,10px -6px 0 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-image:after {
+.icon--image:after {
   position: absolute;
+  top: 5px;
+  right: 5px;
   width: 4px;
   height: 4px;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px;
-  top: 5px;
-  right: 5px;
 }
-.icono-headphone {
+.icon--headphone {
+  margin: 2px 2px 5px;
   width: 30px;
   height: 27px;
   border-bottom-color: transparent;
   border-radius: 32px/32px 32px 16px 16px;
-  margin: 2px 2px 5px;
 }
-.icono-headphone:before {
+.icon--headphone:before {
   position: absolute;
+  bottom: -4px;
+  left: 1px;
   width: 4px;
   height: 12px;
-  left: 1px;
-  bottom: -4px;
   border-radius: 5px;
   box-shadow: inset 0 0 0 32px,20px 0 0 0;
 }
-.icono-music {
+.icon--music {
+  margin: 4px 5px 24px 11px;
   width: 18px;
   height: 6px;
-  -webkit-transform: skewY(-15deg);
-  -ms-transform: skewY(-15deg);
-  transform: skewY(-15deg);
-  box-shadow: inset 0 0 0 32px;
   border-radius: 2px 2px 0 0;
-  margin: 4px 5px 24px 11px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-transform: skewY(-15deg);
+      -ms-transform: skewY(-15deg);
+          transform: skewY(-15deg);
 }
-.icono-music:before {
+.icon--music:before {
   position: absolute;
+  top: 4px;
+  left: 0;
   width: 2px;
   height: 16px;
-  left: 0;
-  top: 4px;
   box-shadow: inset 0 0 0 32px,16px 0 0 0;
 }
-.icono-music:after {
+.icon--music:after {
   position: absolute;
+  top: 17px;
+  left: -8px;
   width: 10px;
   height: 8px;
-  left: -8px;
-  top: 17px;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px,16px 0 0 0;
 }
-.icono-video {
+.icon--video {
+  margin: 7px;
   width: 20px;
   height: 20px;
-  margin: 7px;
 }
-.icono-video:before {
+.icon--video:before {
+  left: -8px;
   width: 3px;
   height: 3px;
-  left: -8px;
   box-shadow: inset 0 0 0 32px,0 -8px 0 0,0 8px 0 0,29px 0 0 0,29px -8px 0 0,29px 8px 0 0;
 }
-.icono-video:after {
+.icon--video:after {
   width: 0;
   height: 0;
   border-width: 4px 0 4px 6px;
@@ -1274,264 +1278,266 @@
   border-top-color: transparent;
   border-bottom-color: transparent;
 }
-.icono-nexus {
+.icon--nexus {
+  margin: 1px 7px 1px 6px;
   width: 21px;
   height: 32px;
   border-width: 3px 1px;
   border-radius: 16px/3px;
-  margin: 1px 7px 1px 6px;
 }
-.icono-microphone {
+.icon--microphone {
+  margin: 12px 6px 7px;
   width: 22px;
   height: 15px;
   border-width: 0 2px 2px;
   border-radius: 20px/0 0 20px 20px;
-  margin: 12px 6px 7px;
 }
-.icono-microphone:before {
+.icon--microphone:before {
+  top: -11px;
   width: 10px;
   height: 18px;
-  top: -11px;
   border-radius: 20px;
 }
-.icono-microphone:after {
+.icon--microphone:after {
+  bottom: -4px;
   width: 2px;
   height: 2px;
-  bottom: -4px;
   box-shadow: inset 0 0 0 32px,0 2px,0 4px,-2px 4px,-4px 4px,-6px 4px,2px 4px,4px 4px,6px 4px;
 }
-.icono-asterisk,
-.icono-asterisk:after,
-.icono-asterisk:before {
+.icon--asterisk,
+.icon--asterisk:after,
+.icon--asterisk:before {
+  margin: 7px 15px;
   width: 4px;
   height: 20px;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 1px;
-  margin: 7px 15px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-asterisk:after,
-.icono-asterisk:before {
+.icon--asterisk:after,
+.icon--asterisk:before {
   position: absolute;
-  margin: 0;
-  left: 0;
   top: 0;
+  left: 0;
+  margin: 0;
 }
-.icono-asterisk:before {
+.icon--asterisk:before {
   -webkit-transform: rotate(-58deg);
-  -ms-transform: rotate(-58deg);
-  transform: rotate(-58deg);
+      -ms-transform: rotate(-58deg);
+          transform: rotate(-58deg);
 }
-.icono-asterisk:after {
+.icon--asterisk:after {
   -webkit-transform: rotate(58deg);
-  -ms-transform: rotate(58deg);
-  transform: rotate(58deg);
+      -ms-transform: rotate(58deg);
+          transform: rotate(58deg);
 }
-.icono-terminal {
+.icon--terminal {
+  margin: 5px 3px;
   width: 28px;
   height: 24px;
-  margin: 5px 3px;
 }
-.icono-terminal:before {
-  width: 5px;
-  height: 5px;
+.icon--terminal:before {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%) rotate(45deg);
-  -ms-transform: translateY(-50%) rotate(45deg);
-  transform: translateY(-50%) rotate(45deg);
   left: 3px;
+  width: 5px;
+  height: 5px;
   border-width: 2px 2px 0 0;
   border-style: solid;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
 }
-.icono-terminal:after {
+.icon--terminal:after {
   position: absolute;
+  right: 6px;
+  bottom: 4px;
   width: 5px;
   height: 0;
   border-bottom: 2px solid;
-  right: 6px;
-  bottom: 4px;
 }
-.icono-paperClip {
+.icon--paperClip {
+  margin: 5px 0 11px 10px;
   width: 24px;
   height: 18px;
   border-left: none;
   border-radius: 0 16px 16px 0;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin: 5px 0 11px 10px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-paperClip:before {
+.icon--paperClip:before {
+  right: 2px;
   width: 18px;
   height: 6px;
-  right: 2px;
-  border-radius: 0 16px 16px 0;
   border-left: none;
+  border-radius: 0 16px 16px 0;
 }
-.icono-paperClip:after {
+.icon--paperClip:after {
   position: absolute;
+  top: -2px;
+  left: -12px;
   width: 12px;
   height: 10px;
-  left: -12px;
-  top: -2px;
   border-right: none;
   border-radius: 16px 0 0 16px;
 }
-.icono-market {
+.icon--market {
+  margin: 19px 1px 3px;
   width: 32px;
   height: 12px;
   border-top: none;
-  margin: 19px 1px 3px;
 }
-.icono-market:before {
-  width: 6px;
-  height: 13px;
+.icon--market:before {
   position: absolute;
   top: -15px;
   left: -5px;
-  border-radius: 0 0 10px 10px;
+  width: 6px;
+  height: 13px;
   border-left: none;
+  border-radius: 0 0 10px 10px;
   box-shadow: inset 0 0 0 32px,8px 0 0,16px 0 0,24px 0 0,32px 0 0;
 }
-.icono-market:after {
+.icon--market:after {
+  bottom: -2px;
   width: 6px;
   height: 6px;
-  bottom: -2px;
 }
-.icono-clock {
+.icon--clock {
+  margin: 4px;
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  margin: 4px;
 }
-.icono-clock:after,
-.icono-clock:before {
+.icon--clock:after,
+.icon--clock:before {
   top: 35%;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 2px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-clock:before {
+.icon--clock:before {
   width: 2px;
   height: 9px;
 }
-.icono-clock:after {
+.icon--clock:after {
   width: 6px;
   height: 2px;
-  -webkit-transform-origin: left center;
-  -ms-transform-origin: left center;
-  transform-origin: left center;
   -webkit-transform: rotate(45deg) translate(1px,2px);
-  -ms-transform: rotate(45deg) translate(1px,2px);
-  transform: rotate(45deg) translate(1px,2px);
+      -ms-transform: rotate(45deg) translate(1px,2px);
+          transform: rotate(45deg) translate(1px,2px);
+  -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+          transform-origin: left center;
 }
-[class*=icono-textAlign] {
+[class*=icon--textAlign] {
+  margin: 6px 3px;
   width: 28px;
   height: 22px;
-  margin: 6px 3px;
 }
-[class*=icono-textAlign]:after,
-[class*=icono-textAlign]:before {
+[class*=icon--textAlign]:after,
+[class*=icon--textAlign]:before {
   position: absolute;
+  right: 0;
   height: 2px;
   box-shadow: inset 0 0 0 32px,0 8px 0 0,0 16px 0 0;
-  right: 0;
 }
-[class*=icono-textAlign]:before {
-  width: 28px;
+[class*=icon--textAlign]:before {
   top: 0;
+  width: 28px;
 }
-[class*=icono-textAlign]:after {
-  width: 18px;
+[class*=icon--textAlign]:after {
   top: 4px;
+  width: 18px;
 }
-[class*=icono-textAlign].icono-textAlignLeft:after,
-[class*=icono-textAlign].icono-textAlignLeft:before {  left: 0 }
-[class*=icono-exclamation] {
+[class*=icon--textAlign].icon--textAlignLeft:after,
+[class*=icon--textAlign].icon--textAlignLeft:before {
+  left: 0;
+}
+[class*=icon--exclamation] {
   overflow: visible;
+  margin: 26px 2px 6px;
   width: 30px;
   border-bottom: 2px solid;
   border-radius: 0 0 4px 4px;
-  margin: 26px 2px 6px;
 }
-[class*=icono-exclamation]:before {
+[class*=icon--exclamation]:before {
   position: absolute;
+  top: -14px;
+  left: 1px;
   width: 26px;
   height: 26px;
-  left: 1px;
-  top: -14px;
   border-width: 2px 0 0 2px;
   border-style: solid;
   border-radius: 4px 0;
   -webkit-transform: rotate(45deg) skew(12deg,12deg);
-  -ms-transform: rotate(45deg) skew(12deg,12deg);
-  transform: rotate(45deg) skew(12deg,12deg);
+      -ms-transform: rotate(45deg) skew(12deg,12deg);
+          transform: rotate(45deg) skew(12deg,12deg);
 }
-[class*=icono-exclamation]:after {
+[class*=icon--exclamation]:after {
+  top: -14px;
   width: 4px;
   height: 3px;
-  top: -14px;
   box-shadow: inset 0 0 0 32px,0 3px,0 8px;
 }
-[class*=icono-exclamation][class*=Circle] {  margin: 2px }
-[class*=icono-exclamation][class*=Circle]:before {  display: none }
-[class*=icono-exclamation][class*=Circle]:after {
-  box-shadow: inset 0 0 0 32px,0 3px,0 5px,0 10px;
+[class*=icon--exclamation][class*=Circle] {margin: 2px;}
+[class*=icon--exclamation][class*=Circle]:before {display: none;}
+[class*=icon--exclamation][class*=Circle]:after {
   top: 6px;
+  box-shadow: inset 0 0 0 32px,0 3px,0 5px,0 10px;
 }
-.icono-frown:after {
+.icon--frown:after {
   -webkit-transform: translateX(-50%) rotate(180deg);
-  -ms-transform: translateX(-50%) rotate(180deg);
-  transform: translateX(-50%) rotate(180deg);
+      -ms-transform: translateX(-50%) rotate(180deg);
+          transform: translateX(-50%) rotate(180deg);
   -webkit-transform-origin: center 85%;
-  -ms-transform-origin: center 85%;
-  transform-origin: center 85%;
+      -ms-transform-origin: center 85%;
+          transform-origin: center 85%;
 }
-.icono-meh:after {
+.icon--meh:after {
   top: 0;
   width: 12px;
-  border-left-width: 0;
   border-right-width: 0;
+  border-left-width: 0;
   border-radius: 0;
 }
-.icono-indent,
-.icono-outdent {
+.icon--indent,
+.icon--outdent {
+  margin: 9px 7px;
   width: 20px;
   height: 16px;
   border-width: 4px 0 4px 8px;
   border-style: solid;
   border-color: transparent;
   box-shadow: 0 -2px,0 2px,inset 0 2px,inset 0 -2px;
-  margin: 9px 7px;
 }
-.icono-indent:before,
-.icono-outdent:before {
+.icon--indent:before,
+.icon--outdent:before {
   left: -8px;
   border: 5px solid;
   border-top-color: transparent;
-  border-bottom-color: transparent;
   border-right-width: 0;
+  border-bottom-color: transparent;
 }
-.icono-outdent:before {
-  border-left-width: 0;
+.icon--outdent:before {
   border-right-width: 5px;
+  border-left-width: 0;
 }
-.icono-locationArrow {
+.icon--locationArrow {
+  margin: 1px;
   width: 32px;
   height: 32px;
-  margin: 1px;
 }
-.icono-locationArrow:before {
+.icon--locationArrow:before {
   position: absolute;
-  left: 7px;
   top: 16px;
+  left: 7px;
   border-width: 6px 0 6px 6px;
   border-style: solid;
   border-left-color: transparent;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-locationArrow:after {
+.icon--locationArrow:after {
   position: absolute;
   top: 10px;
   left: 2px;
@@ -1540,245 +1546,245 @@
   border-bottom-color: transparent;
   border-left-color: transparent;
   -webkit-transform: skew(-30deg,-30deg);
-  -ms-transform: skew(-30deg,-30deg);
-  transform: skew(-30deg,-30deg);
+      -ms-transform: skew(-30deg,-30deg);
+          transform: skew(-30deg,-30deg);
 }
-.icono-commentEmpty {
+.icon--commentEmpty {
+  margin: 5px 2px 7px;
   width: 30px;
   height: 22px;
-  border-radius: 4px 4px 7px 7px;
   border-bottom-color: transparent;
-  margin: 5px 2px 7px;
+  border-radius: 4px 4px 7px 7px;
 }
-.icono-commentEmpty:before {
+.icon--commentEmpty:before {
   position: absolute;
+  bottom: -4px;
+  left: 6px;
   width: 6px;
   height: 6px;
   border-width: 0 0 2px 2px;
   border-style: solid;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  bottom: -4px;
-  left: 6px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-commentEmpty:after {
+.icon--commentEmpty:after {
   position: absolute;
+  bottom: 0;
+  left: 0;
   width: 8px;
   height: 2px;
   border-width: 0 12px 0 6px;
   border-style: solid;
-  bottom: 0;
-  left: 0;
 }
-.icono-comment {
+.icon--comment {
+  margin: 5px 2px 9px;
   width: 30px;
   height: 20px;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 4px;
-  margin: 5px 2px 9px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-comment:before {
+.icon--comment:before {
   position: absolute;
+  bottom: -4px;
+  left: 6px;
   width: 8px;
   height: 8px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  bottom: -4px;
-  left: 6px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-areaChart,
-.icono-barChart {
-  width: 30px;
-  height: 22px;
-  border-top-width: 0;
-  border-right-width: 0;
-  border-color: transparent;
-  box-shadow: -2px 2px;
+.icon--areaChart,
+.icon--barChart {
   overflow: hidden;
   margin: 4px 0 8px 4px;
+  width: 30px;
+  height: 22px;
+  border-color: transparent;
+  border-top-width: 0;
+  border-right-width: 0;
+  box-shadow: -2px 2px;
 }
-.icono-areaChart:before {
+.icon--areaChart:before {
   position: absolute;
-  left: 0;
   bottom: 7px;
+  left: 0;
   border: 6px solid transparent;
   border-bottom-color: currentColor;
   box-shadow: 0 7px;
 }
-.icono-areaChart:after {
+.icon--areaChart:after {
   position: absolute;
-  left: 11px;
   bottom: 4px;
+  left: 11px;
   border-width: 0 6px 13px;
   border-style: solid;
   border-color: transparent transparent currentColor;
   box-shadow: 0 4px;
 }
-.icono-barChart {
+.icon--barChart {
+  margin: 4px 0 8px 4px;
   border-color: transparent;
   box-shadow: -2px 2px;
-  margin: 4px 0 8px 4px;
 }
-.icono-barChart:before {
+.icon--barChart:before {
   position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 4px;
   height: 15px;
   box-shadow: inset 0 -8px 0 0,6px 0,12px 7px,18px 5px;
 }
-.icono-pieChart {
+.icon--pieChart {
+  margin: 2px;
   width: 0;
   height: 0;
   border: 15px solid;
   border-right-color: transparent;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin: 2px;
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-pieChart:before {
+.icon--pieChart:before {
   position: absolute;
+  top: -14px;
+  left: -11px;
   width: 0;
   height: 0;
-  left: -11px;
-  top: -14px;
   border: 14px solid;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
   border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
   border-radius: 50%;
 }
-.icono-bookmark {
+.icon--bookmark {
+  margin: 10px 8px 6px;
   width: 0;
   height: 0;
   border: 9px solid;
   border-bottom-color: transparent;
-  box-shadow: 0 -4px;
   border-radius: 3px 3px 0 0;
-  margin: 10px 8px 6px;
+  box-shadow: 0 -4px;
 }
-.icono-bookmarkEmpty {
+.icon--bookmarkEmpty {
+  overflow: hidden;
+  margin: 6px 8px;
   width: 18px;
   height: 22px;
   border-bottom: none;
   border-radius: 3px 3px 2px 2px;
-  overflow: hidden;
-  margin: 6px 8px;
 }
-.icono-bookmarkEmpty:before {
+.icon--bookmarkEmpty:before {
   position: absolute;
-  width: 12px;
-  height: 12px;
   bottom: 0;
   left: 0;
+  width: 12px;
+  height: 12px;
   border-right: none;
   border-bottom: none;
   -webkit-transform: rotate(45deg) translate(35%,35%);
-  -ms-transform: rotate(45deg) translate(35%,35%);
-  transform: rotate(45deg) translate(35%,35%);
+      -ms-transform: rotate(45deg) translate(35%,35%);
+          transform: rotate(45deg) translate(35%,35%);
 }
-.icono-filter {
+.icon--filter {
+  padding: 3px;
+  margin: 9px 4px;
   width: 0;
   height: 0;
   border: 10px solid;
+  border-right-color: transparent;
   border-bottom: none;
   border-left-color: transparent;
-  border-right-color: transparent;
-  padding: 3px;
   box-shadow: inset 0 7px;
-  margin: 9px 4px;
 }
-.icono-volume,
-.icono-volumeDecrease,
-.icono-volumeHigh,
-.icono-volumeIncrease,
-.icono-volumeLow,
-.icono-volumeMedium,
-.icono-volumeMute {
+.icon--volume,
+.icon--volumeDecrease,
+.icon--volumeHigh,
+.icon--volumeIncrease,
+.icon--volumeLow,
+.icon--volumeMedium,
+.icon--volumeMute {
+  padding: 6px 3px;
+  margin: 4px 10px 4px 11px;
   width: 0;
   height: 0;
   border: 7px solid;
-  border-left: none;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  padding: 6px 3px;
+  border-left: none;
   box-shadow: inset 4px 0;
-  margin: 4px 10px 4px 11px;
 }
-.icono-volumeHigh,
-.icono-volumeLow,
-.icono-volumeMedium {  margin: 4px 14px 4px 7px }
-.icono-volumeHigh:after,
-.icono-volumeHigh:before,
-.icono-volumeLow:before,
-.icono-volumeMedium:before {
+.icon--volumeHigh,
+.icon--volumeLow,
+.icon--volumeMedium {margin: 4px 14px 4px 7px;}
+.icon--volumeHigh:after,
+.icon--volumeHigh:before,
+.icon--volumeLow:before,
+.icon--volumeMedium:before {
+  position: absolute;
+  left: 2px;
   width: 15px;
   height: 15px;
-  position: absolute;
-  border-radius: 50%;
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  left: 2px;
+  border-radius: 50%;
 }
-.icono-volumeHigh,
-.icono-volumeMedium {  margin: 4px 16px 4px 5px }
-.icono-volumeHigh:before,
-.icono-volumeMedium:before {
-  border-style: double;
-  border-width: 6px;
+.icon--volumeHigh,
+.icon--volumeMedium {margin: 4px 16px 4px 5px;}
+.icon--volumeHigh:before,
+.icon--volumeMedium:before {
   left: -2px;
+  border-width: 6px;
+  border-style: double;
 }
-.icono-volumeHigh {  margin: 4px 18px 4px 3px }
-.icono-volumeHigh:after {
+.icon--volumeHigh {margin: 4px 18px 4px 3px;}
+.icon--volumeHigh:after {
+  left: -7px;
   width: 32px;
   height: 32px;
-  left: -7px;
 }
-.icono-volumeDecrease,
-.icono-volumeIncrease,
-.icono-volumeMute {  margin: 4px 16px 4px 5px }
-.icono-volumeDecrease:after,
-.icono-volumeDecrease:before,
-.icono-volumeIncrease:after,
-.icono-volumeIncrease:before,
-.icono-volumeMute:after,
-.icono-volumeMute:before {  box-shadow: inset 0 0 0 32px }
-.icono-volumeDecrease:before,
-.icono-volumeIncrease:before,
-.icono-volumeMute:before {
+.icon--volumeDecrease,
+.icon--volumeIncrease,
+.icon--volumeMute {margin: 4px 16px 4px 5px;}
+.icon--volumeDecrease:after,
+.icon--volumeDecrease:before,
+.icon--volumeIncrease:after,
+.icon--volumeIncrease:before,
+.icon--volumeMute:after,
+.icon--volumeMute:before {box-shadow: inset 0 0 0 32px;}
+.icon--volumeDecrease:before,
+.icon--volumeIncrease:before,
+.icon--volumeMute:before {
+  left: 17px;
   width: 10px;
   height: 2px;
-  left: 17px;
 }
-.icono-volumeIncrease:after,
-.icono-volumeMute:after {
-  height: 10px;
-  width: 2px;
+.icon--volumeIncrease:after,
+.icon--volumeMute:after {
   left: 21px;
+  width: 2px;
+  height: 10px;
 }
-.icono-volumeMute:after,
-.icono-volumeMute:before {
+.icon--volumeMute:after,
+.icon--volumeMute:before {
   -webkit-transform: translateY(-50%) rotate(45deg);
-  -ms-transform: translateY(-50%) rotate(45deg);
-  transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
 }
-.icono-tag {
+.icon--tag {
+  margin: 5px 8px;
   width: 18px;
   height: 24px;
-  border-radius: 6px 6px 4px 4px;
   border-top: none;
+  border-radius: 6px 6px 4px 4px;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  margin: 5px 8px;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-tag:before {
+.icon--tag:before {
   position: absolute;
   top: -4px;
   left: 1px;
@@ -1786,114 +1792,114 @@
   height: 10px;
   border-width: 2px 0 0 2px;
   border-style: solid;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
   border-radius: 5px 0 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-tag:after {
+.icon--tag:after {
   top: 1px;
   width: 3px;
   height: 3px;
   border-radius: 50%;
 }
-.icono-calendar {
+.icon--calendar {
+  margin: 5px 1px 1px;
   width: 32px;
   height: 28px;
   border-width: 4px 2px 2px;
   border-style: solid;
   border-radius: 4px;
-  margin: 5px 1px 1px;
 }
-.icono-calendar:before {
+.icon--calendar:before {
   position: absolute;
-  width: 4px;
-  height: 4px;
   top: 3px;
   left: 3px;
+  width: 4px;
+  height: 4px;
   box-shadow: inset 0 0 0 32px,6px 0,12px 0,18px 0,0 6px,6px 6px,12px 6px,18px 6px,0 12px,6px 12px,12px 12px,18px 12px;
 }
-.icono-calendar:after {
+.icon--calendar:after {
   position: absolute;
-  width: 4px;
-  height: 8px;
-  box-shadow: inset 0 0 0 32px,16px 0;
-  border-radius: 4px;
   top: -8px;
   left: 4px;
+  width: 4px;
+  height: 8px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 32px,16px 0;
 }
-.icono-camera {
+.icon--camera {
+  margin: 5px 1px;
   width: 32px;
   height: 24px;
   border-radius: 4px;
-  margin: 5px 1px;
 }
-.icono-camera:before {
+.icon--camera:before {
   width: 10px;
   height: 10px;
   border: 1px solid transparent;
-  box-shadow: inset 0 0 0 1px,0 0 0 2px;
   border-radius: 50%;
+  box-shadow: inset 0 0 0 1px,0 0 0 2px;
 }
-.icono-camera:after {
+.icon--camera:after {
   position: absolute;
+  top: 2px;
+  right: 2px;
   width: 4px;
   height: 2px;
-  right: 2px;
-  top: 2px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-piano {
+.icon--piano {
+  margin: 6px 3px;
   width: 28px;
   height: 22px;
-  margin: 6px 3px;
 }
-.icono-piano:before {
+.icon--piano:before {
   position: absolute;
-  left: 4px;
   top: 0;
+  left: 4px;
   width: 1px;
   height: 100%;
   box-shadow: inset 0 0 0 32px,5px 0,10px 0,15px 0;
 }
-.icono-piano:after {
+.icon--piano:after {
   position: absolute;
+  top: 0;
+  left: 3px;
   width: 3px;
   height: 12px;
-  left: 3px;
-  top: 0;
   box-shadow: inset 0 0 0 32px,5px 0,10px 0,15px 0;
 }
-.icono-ruler {
+.icon--ruler {
+  margin: 11px 4px 11px 3px;
   width: 27px;
   height: 12px;
-  margin: 11px 4px 11px 3px;
 }
-.icono-ruler:before {
+.icon--ruler:before {
   position: absolute;
+  top: 0;
+  left: 5px;
   width: 1px;
   height: 4px;
   box-shadow: inset 0 0 0 32px,6px 0,12px 0;
-  left: 5px;
-  top: 0;
 }
-.icono-ruler:after {
+.icon--ruler:after {
   position: absolute;
+  top: 0;
+  left: 1px;
   width: 1px;
   height: 2px;
   box-shadow: inset 0 0 0 32px,2px 0,6px 0,8px 0,12px 0,14px 0,18px 0,20px 0;
-  left: 1px;
-  top: 0;
 }
-.icono-facebook {
+.icon--facebook {
+  margin: 4px 11px 4px 14px;
   width: 9px;
   height: 26px;
-  box-shadow: inset 2px 4px 0 0;
   border-left: 3px solid;
   border-radius: 5px 0 0;
-  margin: 4px 11px 4px 14px;
+  box-shadow: inset 2px 4px 0 0;
 }
-.icono-facebook:before {
+.icon--facebook:before {
   position: absolute;
   top: 9px;
   left: -6px;
@@ -1902,14 +1908,14 @@
   border-top: 4px solid;
   border-right: 1px solid transparent;
 }
-.icono-twitter {
+.icon--twitter {
+  margin: 4px 7px 7px 13px;
   width: 14px;
   height: 23px;
   border-radius: 0 0 0 8px;
   box-shadow: -6px 2px 0 0;
-  margin: 4px 7px 7px 13px;
 }
-.icono-twitter:before {
+.icon--twitter:before {
   position: absolute;
   bottom: -2px;
   left: -6px;
@@ -1918,558 +1924,559 @@
   border-radius: 0 0 0 8px;
   box-shadow: inset 4px -6px,0 -11px;
 }
-.icono-twitter:after {
+.icon--twitter:after {
   position: absolute;
+  left: -6px;
   width: 6px;
   height: 6px;
-  box-shadow: inset 0 0 0 32px,13px 8px,13px 19px;
   border-radius: 50%;
-  left: -6px;
+  box-shadow: inset 0 0 0 32px,13px 8px,13px 19px;
 }
-.icono-gplus {
+.icon--gplus {
+  margin: 14px 4px 18px 20px;
   width: 10px;
   height: 2px;
   box-shadow: inset 0 0 0 32px;
-  margin: 14px 4px 18px 20px;
 }
-.icono-gplus:before {
+.icon--gplus:before {
   position: absolute;
   top: -5px;
   right: 10px;
-  content: "g"!important;
   font-family: georgia;
   font-size: 32px;
-  text-indent: 0;
   line-height: 0;
+  text-indent: 0;
+  content: "g"!important;
 }
-.icono-gplus:after {
+.icon--gplus:after {
   width: 2px;
   height: 10px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-linkedIn {
+.icon--linkedIn {
+  margin: 12px 24px 6px 5px;
   width: 5px;
   height: 16px;
   box-shadow: inset 0 0 0 32px,8px 0;
-  margin: 12px 24px 6px 5px;
 }
-.icono-linkedIn:before {
+.icon--linkedIn:before {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  box-shadow: inset 0 0 0 32px;
   top: -7px;
   left: 0;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-linkedIn:after {
+.icon--linkedIn:after {
   position: absolute;
+  bottom: 0;
+  left: 11px;
   width: 12px;
   height: 16px;
   border-right: 1px solid;
-  left: 11px;
-  bottom: 0;
   border-radius: 8px 5px 0 0/11px 5px 0 0;
   box-shadow: inset -4px 4px;
 }
-.icono-instagram {
+.icon--instagram {
+  margin: 4px;
   width: 26px;
   height: 26px;
-  box-shadow: inset 0 0 0 2px;
   border-radius: 4px;
-  margin: 4px;
+  box-shadow: inset 0 0 0 2px;
 }
-.icono-instagram:before {
+.icon--instagram:before {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   box-shadow: 0 0 0 3px;
 }
-.icono-instagram:after {
+.icon--instagram:after {
   position: absolute;
+  top: 3px;
+  right: 3px;
   width: 5px;
   height: 5px;
   border-radius: 1px;
-  right: 3px;
-  top: 3px;
   box-shadow: 0 0 0 2px,1px 1px 0 2px,-5px -1px 0 1px,-10px -1px 0 1px,-16px 1px 0 2px;
 }
-.icono-flickr {
+.icon--flickr {
+  overflow: hidden;
+  margin: 5px;
   width: 24px;
   height: 24px;
-  overflow: hidden;
   border-radius: 4px;
-  margin: 5px;
 }
-.icono-flickr:after,
-.icono-flickr:before {
+.icon--flickr:after,
+.icon--flickr:before {
   width: 7px;
   height: 7px;
   border-radius: 50%;
 }
-.icono-flickr:before {
+.icon--flickr:before {
   left: 4px;
   box-shadow: 0 0 0 1px,0 -10px 0 6px,0 10px 0 6px,-4px 0 0 3px;
 }
-.icono-flickr:after {
+.icon--flickr:after {
   right: 4px;
   box-shadow: 0 0 0 1px,0 -10px 0 6px,0 10px 0 6px,4px 0 0 3px;
 }
-.icono-delicious {
+.icon--delicious {
+  overflow: hidden;
+  margin: 5px;
   width: 24px;
   height: 24px;
-  overflow: hidden;
   border-radius: 4px;
   box-shadow: inset 0 0 0 2px;
-  margin: 5px;
 }
-.icono-delicious:before {
+.icon--delicious:before {
   position: absolute;
+  bottom: 0;
+  left: 0;
   width: 12px;
   height: 12px;
   box-shadow: inset 0 0 0 32px,12px -12px 0 0;
-  left: 0;
-  bottom: 0;
 }
-.icono-codepen {
+.icon--codepen {
+  margin: 4px 16px 20px;
   width: 2px;
   height: 10px;
   box-shadow: inset 0 0 0 32px,0 15px,-11px 7px,11px 7px;
-  margin: 4px 16px 20px;
 }
-.icono-codepen:before {
+.icon--codepen:before {
   position: absolute;
+  top: 3px;
   right: 2px;
-  top: 3px;
   width: 11px;
   height: 4px;
-  -webkit-transform: skew(0,-35deg) scaleY(0.6);
-  -ms-transform: skew(0,-35deg) scaleY(0.6);
-  transform: skew(0,-35deg) scaleY(0.6);
   box-shadow: inset 0 0 0 32px,0 13px,11px 26px,12px 39px;
+  -webkit-transform: skew(0,-35deg) scaleY(.6);
+      -ms-transform: skew(0,-35deg) scaleY(.6);
+          transform: skew(0,-35deg) scaleY(.6);
 }
-.icono-codepen:after {
+.icon--codepen:after {
   position: absolute;
-  left: 2px;
   top: 3px;
+  left: 2px;
   width: 11px;
   height: 4px;
-  -webkit-transform: skew(0,35deg) scaleY(0.6);
-  -ms-transform: skew(0,35deg) scaleY(0.6);
-  transform: skew(0,35deg) scaleY(0.6);
   box-shadow: inset 0 0 0 32px,0 13px,-11px 26px,-12px 39px;
+  -webkit-transform: skew(0,35deg) scaleY(.6);
+      -ms-transform: skew(0,35deg) scaleY(.6);
+          transform: skew(0,35deg) scaleY(.6);
 }
-.icono-blogger {
+.icon--blogger {
+  margin: 14px 5px 6px;
   width: 24px;
   height: 14px;
   border-radius: 0 0 7px 7px;
-  margin: 14px 5px 6px;
 }
-.icono-blogger,
-.icono-blogger:before {
+.icon--blogger,
+.icon--blogger:before {
   border-width: 6px;
   border-style: solid;
 }
-.icono-blogger:before {
+.icon--blogger:before {
   position: absolute;
+  top: -15px;
+  left: -6px;
   width: 8px;
   height: 2px;
-  left: -6px;
-  top: -15px;
   border-radius: 6px 6px 0 0;
 }
-.icono-disqus {
+.icon--disqus {
+  margin: 1px 1px 2px 2px;
   width: 31px;
   height: 31px;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 50%;
-  margin: 1px 1px 2px 2px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-disqus:before {
+.icon--disqus:before {
   position: absolute;
+  top: 20px;
+  left: -5px;
   width: 0;
   height: 0;
   border: 5px solid transparent;
   border-top: 10px solid;
   -webkit-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  transform: rotate(50deg);
-  left: -5px;
-  top: 20px;
+      -ms-transform: rotate(50deg);
+          transform: rotate(50deg);
 }
-.icono-dribbble {
+.icon--dribbble {
+  position: relative;
+  overflow: hidden;
+  margin: 4px;
   width: 26px;
   height: 26px;
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 2px;
-  overflow: hidden;
-  position: relative;
   background-image: -webkit-radial-gradient(50% 100%,transparent 0,transparent 9px,currentColor 10px,currentColor 11px,transparent 12px);
-  background-image: radial-gradient(50% 100%,transparent 0,transparent 9px,currentColor 10px,currentColor 11px,transparent 12px);
+  background-image:         radial-gradient(50% 100%,transparent 0,transparent 9px,currentColor 10px,currentColor 11px,transparent 12px);
   background-repeat: no-repeat;
   background-position: -8px center;
-  -webkit-transform: rotate(-25deg);
-  -ms-transform: rotate(-25deg);
-  transform: rotate(-25deg);
-  margin: 4px;
-}
-.icono-dribbble:after,
-.icono-dribbble:before {
-  position: absolute;
   border-radius: 50%;
-  border: 2px solid;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: rotate(-25deg);
+      -ms-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+.icon--dribbble:after,
+.icon--dribbble:before {
+  position: absolute;
   width: 40px;
   height: 30px;
+  border: 2px solid;
+  border-radius: 50%;
 }
-.icono-dribbble:after {
+.icon--dribbble:after {
   top: 14px;
   left: -7px;
   width: 32px;
 }
-.icono-dribbble:before {
-  left: -6px;
+.icon--dribbble:before {
   top: -23px;
+  left: -6px;
 }
-.icono-creditCard {
+.icon--creditCard {
+  margin: 5px 1px;
   width: 32px;
   height: 24px;
   border-radius: 3px;
-  margin: 5px 1px;
 }
-.icono-creditCard:before {
+.icon--creditCard:before {
   position: absolute;
   top: 4px;
   width: 100%;
   height: 6px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-creditCard:after {
-  left: 3px;
-  bottom: 3px;
+.icon--creditCard:after {
   position: absolute;
+  bottom: 3px;
+  left: 3px;
   width: 4px;
   height: 2px;
   box-shadow: inset 0 0 0 32px,6px 0;
 }
-.icono-cup {
+.icon--cup {
+  margin: 6px 6px 12px;
   width: 22px;
   height: 16px;
-  box-shadow: inset 0 0 0 32px;
   border-radius: 0 0 5px 5px;
-  margin: 6px 6px 12px;
+  box-shadow: inset 0 0 0 32px;
 }
-.icono-cup:before {
+.icon--cup:before {
   position: absolute;
-  right: -3px;
   top: 4px;
+  right: -3px;
   width: 5px;
   height: 5px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px;
 }
-.icono-cup:after {
+.icon--cup:after {
   bottom: -5px;
   width: 26px;
   height: 3px;
   border-radius: 0 0 3px 3px;
   box-shadow: inset 0 0 0 32px;
 }
-.icono-play {
+.icon--play {
+  margin: 7px 9px;
   width: 0;
   height: 0;
   border-width: 10px 0 10px 16px;
   border-style: solid;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  margin: 7px 9px;
 }
-.icono-pause {
+.icon--pause {
+  margin: 7px 20px 7px 8px;
   width: 6px;
   height: 20px;
-  margin: 7px 20px 7px 8px;
   box-shadow: inset 0 0 0 32px,12px 0 0 0;
 }
-.icono-stop {
+.icon--stop {
+  margin: 7px;
   width: 0;
   height: 0;
   border: 10px solid;
-  margin: 7px;
 }
-.icono-rewind {
+.icon--rewind {
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
-.icono-forward,
-.icono-rewind {
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left: 10px solid;
+.icon--forward,
+.icon--rewind {
   margin: 7px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left: 10px solid;
 }
-.icono-forward:before,
-.icono-rewind:before {
+.icon--forward:before,
+.icon--rewind:before {
   position: absolute;
-  left: 0;
   top: -10px;
+  left: 0;
   width: 0;
   height: 0;
   border: 10px solid transparent;
   border-left: 10px solid;
 }
-.icono-next,
-.icono-previous {
+.icon--next,
+.icon--previous {
+  margin: 7px 14px 7px 10px;
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-left: 10px solid;
   border-right: none;
-  margin: 7px 14px 7px 10px;
+  border-left: 10px solid;
   box-shadow: 4px 0;
 }
-.icono-previous {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.icon--previous {
   margin: 7px 10px 7px 14px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
-.icono-caretDown,
-.icono-caretDownCircle,
-.icono-caretDownSquare,
-.icono-caretLeft,
-.icono-caretLeftCircle,
-.icono-caretLeftSquare,
-.icono-caretRight,
-.icono-caretRightCircle,
-.icono-caretRightSquare,
-.icono-caretUp,
-.icono-caretUpCircle,
-.icono-caretUpSquare {
+.icon--caretDown,
+.icon--caretDownCircle,
+.icon--caretDownSquare,
+.icon--caretLeft,
+.icon--caretLeftCircle,
+.icon--caretLeftSquare,
+.icon--caretRight,
+.icon--caretRightCircle,
+.icon--caretRightSquare,
+.icon--caretUp,
+.icon--caretUpCircle,
+.icon--caretUpSquare {
+  margin: 7px 11px;
   width: 12px;
   height: 20px;
-  margin: 7px 11px;
 }
-.icono-caretDown:after,
-.icono-caretDown:before,
-.icono-caretDownCircle:after,
-.icono-caretDownCircle:before,
-.icono-caretDownSquare:after,
-.icono-caretDownSquare:before,
-.icono-caretLeft:after,
-.icono-caretLeft:before,
-.icono-caretLeftCircle:after,
-.icono-caretLeftCircle:before,
-.icono-caretLeftSquare:after,
-.icono-caretLeftSquare:before,
-.icono-caretRight:after,
-.icono-caretRight:before,
-.icono-caretRightCircle:after,
-.icono-caretRightCircle:before,
-.icono-caretRightSquare:after,
-.icono-caretRightSquare:before,
-.icono-caretUp:after,
-.icono-caretUp:before,
-.icono-caretUpCircle:after,
-.icono-caretUpCircle:before,
-.icono-caretUpSquare:after,
-.icono-caretUpSquare:before {
-  width: 14px;
-  height: 2px;
+.icon--caretDown:after,
+.icon--caretDown:before,
+.icon--caretDownCircle:after,
+.icon--caretDownCircle:before,
+.icon--caretDownSquare:after,
+.icon--caretDownSquare:before,
+.icon--caretLeft:after,
+.icon--caretLeft:before,
+.icon--caretLeftCircle:after,
+.icon--caretLeftCircle:before,
+.icon--caretLeftSquare:after,
+.icon--caretLeftSquare:before,
+.icon--caretRight:after,
+.icon--caretRight:before,
+.icon--caretRightCircle:after,
+.icon--caretRightCircle:before,
+.icon--caretRightSquare:after,
+.icon--caretRightSquare:before,
+.icon--caretUp:after,
+.icon--caretUp:before,
+.icon--caretUpCircle:after,
+.icon--caretUpCircle:before,
+.icon--caretUpSquare:after,
+.icon--caretUpSquare:before {
   position: absolute;
+  right: 2px;
   bottom: 0;
   margin: auto 0;
-  right: 2px;
+  width: 14px;
+  height: 2px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform-origin: right;
-  -ms-transform-origin: right;
-  transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
 }
-.icono-caretDown:before,
-.icono-caretDownCircle:before,
-.icono-caretDownSquare:before,
-.icono-caretLeft:before,
-.icono-caretLeftCircle:before,
-.icono-caretLeftSquare:before,
-.icono-caretRight:before,
-.icono-caretRightCircle:before,
-.icono-caretRightSquare:before,
-.icono-caretUp:before,
-.icono-caretUpCircle:before,
-.icono-caretUpSquare:before {
+.icon--caretDown:before,
+.icon--caretDownCircle:before,
+.icon--caretDownSquare:before,
+.icon--caretLeft:before,
+.icon--caretLeftCircle:before,
+.icon--caretLeftSquare:before,
+.icon--caretRight:before,
+.icon--caretRightCircle:before,
+.icon--caretRightSquare:before,
+.icon--caretUp:before,
+.icon--caretUpCircle:before,
+.icon--caretUpSquare:before {
   top: 2px;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
-.icono-caretDown:after,
-.icono-caretDownCircle:after,
-.icono-caretDownSquare:after,
-.icono-caretLeft:after,
-.icono-caretLeftCircle:after,
-.icono-caretLeftSquare:after,
-.icono-caretRight:after,
-.icono-caretRightCircle:after,
-.icono-caretRightSquare:after,
-.icono-caretUp:after,
-.icono-caretUpCircle:after,
-.icono-caretUpSquare:after {
+.icon--caretDown:after,
+.icon--caretDownCircle:after,
+.icon--caretDownSquare:after,
+.icon--caretLeft:after,
+.icon--caretLeftCircle:after,
+.icon--caretLeftSquare:after,
+.icon--caretRight:after,
+.icon--caretRightCircle:after,
+.icon--caretRightSquare:after,
+.icon--caretUp:after,
+.icon--caretUpCircle:after,
+.icon--caretUpSquare:after {
   top: 0;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
-.icono-caretLeft,
-.icono-caretLeftCircle,
-.icono-caretLeftSquare {
+.icon--caretLeft,
+.icon--caretLeftCircle,
+.icon--caretLeftSquare {
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
-.icono-caretUp,
-.icono-caretUpCircle,
-.icono-caretUpSquare {
+.icon--caretUp,
+.icon--caretUpCircle,
+.icon--caretUpSquare {
   -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
-.icono-caretDown,
-.icono-caretDownCircle,
-.icono-caretDownSquare {
+.icon--caretDown,
+.icon--caretDownCircle,
+.icon--caretDownSquare {
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
-[class*=icono-caret][class*=Circle]:after,
-[class*=icono-caret][class*=Circle]:before,
-[class*=icono-caret][class*=Square]:after,
-[class*=icono-caret][class*=Square]:before {
-  width: 11px;
+[class*=icon--caret][class*=Circle]:after,
+[class*=icon--caret][class*=Circle]:before,
+[class*=icon--caret][class*=Square]:after,
+[class*=icon--caret][class*=Square]:before {
   right: 8px;
+  width: 11px;
 }
-.icono-downArrow,
-.icono-leftArrow,
-.icono-rightArrow,
-.icono-upArrow {
+.icon--downArrow,
+.icon--leftArrow,
+.icon--rightArrow,
+.icon--upArrow {
+  margin: 15px 9px;
   width: 16px;
   height: 4px;
-  margin: 15px 9px;
   box-shadow: inset 0 0 0 2px;
   -webkit-transform: translateX(-3px);
-  -ms-transform: translateX(-3px);
-  transform: translateX(-3px);
+      -ms-transform: translateX(-3px);
+          transform: translateX(-3px);
 }
-.icono-downArrow:before,
-.icono-leftArrow:before,
-.icono-rightArrow:before,
-.icono-upArrow:before {
-  border-style: solid;
+.icon--downArrow:before,
+.icon--leftArrow:before,
+.icon--rightArrow:before,
+.icon--upArrow:before {
+  right: auto;
+  left: 100%;
   border-width: 8px 0 8px 8px;
+  border-style: solid;
   border-color: transparent;
   border-left-color: inherit;
-  left: 100%;
-  right: auto;
 }
-.icono-leftArrow {
+.icon--leftArrow {
   -webkit-transform: translateX(3px) rotate(180deg);
-  -ms-transform: translateX(3px) rotate(180deg);
-  transform: translateX(3px) rotate(180deg);
+      -ms-transform: translateX(3px) rotate(180deg);
+          transform: translateX(3px) rotate(180deg);
 }
-.icono-upArrow {
+.icon--upArrow {
   -webkit-transform: translateY(3px) rotate(-90deg);
-  -ms-transform: translateY(3px) rotate(-90deg);
-  transform: translateY(3px) rotate(-90deg);
+      -ms-transform: translateY(3px) rotate(-90deg);
+          transform: translateY(3px) rotate(-90deg);
 }
-.icono-downArrow {
+.icon--downArrow {
   -webkit-transform: translateY(-3px) rotate(90deg);
-  -ms-transform: translateY(-3px) rotate(90deg);
-  transform: translateY(-3px) rotate(90deg);
+      -ms-transform: translateY(-3px) rotate(90deg);
+          transform: translateY(-3px) rotate(90deg);
 }
-.icono-sun {
+.icon--sun {
+  margin: 6px;
   width: 22px;
   height: 22px;
   border: 2px solid;
   border-radius: 50%;
   box-shadow: -15px 0 0 -9px,15px 0 0 -9px,0 -15px 0 -9px,0 15px 0 -9px,11px 11px 0 -9px,-11px -11px 0 -9px,11px -11px 0 -9px,-11px 11px 0 -9px;
-  margin: 6px;
 }
-.icono-moon {
+.icon--moon {
+  overflow: hidden;
+  margin: 6px;
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  overflow: hidden;
-  margin: 6px;
 }
-.icono-moon:before {
+.icon--moon:before {
   position: absolute;
-  width: 20px;
-  height: 20px;
   top: -2px;
   left: 6px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   box-shadow: 0 0 0 32px;
 }
-.icono-cart {
+.icon--cart {
+  margin: 9px 3px 11px 9px;
   width: 22px;
   height: 0;
   border-width: 14px 6px 0 2px;
   border-style: solid;
   border-right-color: transparent;
   border-left-color: transparent;
-  margin: 9px 3px 11px 9px;
 }
-.icono-cart:before {
+.icon--cart:before {
   position: absolute;
+  top: 2px;
+  left: -3px;
   width: 4px;
   height: 4px;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px,13px 0,-4px -20px 0 1px;
-  top: 2px;
-  left: -3px;
 }
-.icono-sitemap {
+.icon--sitemap {
+  margin: 21px 5px 11px;
   width: 24px;
   height: 2px;
   box-shadow: 0 -5px;
-  margin: 21px 5px 11px;
 }
-.icono-sitemap:before {
+.icon--sitemap:before {
   width: 6px;
   height: 6px;
   border-radius: 2px;
   box-shadow: inset 0 0 0 32px,11px 0,-11px 0,0 -14px 0 1px;
 }
-.icono-sitemap:after {
+.icon--sitemap:after {
   width: 2px;
   height: 10px;
   box-shadow: 0 -7px,11px -5px,-11px -5px;
 }
-[class*=icono-] {
-  display: inline-block;
-  vertical-align: middle;
+[class*=icon--] {
   position: relative;
+  display: inline-block;
   font-style: normal;
   color: #ddd;
   text-align: left;
   text-indent: -9999px;
+  vertical-align: middle;
+
   direction: ltr;
 }
-[class*=icono-]:after,
-[class*=icono-]:before {
-  content: '';
+[class*=icon--]:after,
+[class*=icon--]:before {
+  content: "";
   pointer-events: none;
 }
-[class*=icono-][class*=Circle] {
+[class*=icon--][class*=Circle] {
+  margin: 2px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
+}
+[class*=icon--][class*=Square] {
+  margin: 2px;
   width: 30px;
   height: 30px;
-  margin: 2px;
-}
-[class*=icono-][class*=Square] {
   border-radius: 4px;
-  width: 30px;
-  height: 30px;
-  margin: 2px;
 }
-[class*=icono-],
-[class*=icono-] * {  box-sizing: border-box }
+[class*=icon--],
+[class*=icon--] * {box-sizing: border-box;}
