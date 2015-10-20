@@ -3,10 +3,20 @@
 \*---------------------------------*/
 .btn__container {text-align: center;}
 .btn {
+  display: inline-block;
   font-family: $font--quicksand;
   font-size: 1rem;
-  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
   border-radius: $radius--small;
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   @include transition(all);
 }
 .btn--full {
