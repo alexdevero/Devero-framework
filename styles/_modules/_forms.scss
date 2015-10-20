@@ -1,6 +1,17 @@
 /*---------------------------------*\
   Form
 \*---------------------------------*/
+input[type="search"] {
+  // This overrides the extra rounded corners on search inputs in iOS so that our
+  // `.form-control` class can properly style them. Note that this cannot simply
+  // be added to `.form-control` as it's not specific enough. For details, see
+  // https://github.com/twbs/bootstrap/issues/11586.
+  -webkit-appearance: none;
+}
+textarea {
+  // Textareas should really only resize vertically so they don't break their (horizontal) containers.
+  resize: vertical;
+}
 .form__details input,
 .form__message textarea {
   display: block;
@@ -13,7 +24,6 @@
 }
 .form__details,
 .form__message {margin-bottom: 1em;}
-.form__message textarea {resize: vertical;}
 .form__check,
 .form__robot,
 .form__robot div {margin-bottom: 1em;}

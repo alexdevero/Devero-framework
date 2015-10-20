@@ -6,6 +6,18 @@ body {
   width: 100%;
   height: 100%;
 }
+// Reset the box-sizing
+//
+// Change from `box-sizing: content-box` to `border-box` so that when you add
+// `padding` or `border`s to an element, the overall declared `width` does not
+// change. For example, `width: 100px;` will always be `100px` despite the
+// `border: 10px solid red;` and `padding: 20px;`.
+//
+// Heads up! This reset may cause conflicts with some third-party widgets. For
+// recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing.
+//
+// Credit: shttp://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -15,6 +27,29 @@ html {
 *,
 :after,
 :before {box-sizing: inherit;}
+// Make viewport responsive
+//
+// @viewport is needed because IE 10+ doesn't honor <meta name="viewport"> in
+// some cases. See http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/.
+// Eventually @viewport will replace <meta name="viewport">. It's been manually
+// prefixed for forward-compatibility.
+//
+// However, `device-width` is broken on IE 10 on Windows (Phone) 8,
+// (see http://timkadlec.com/2013/01/windows-phone-8-and-device-width/ and https://github.com/twbs/bootstrap/issues/10497)
+// and the fix for that involves a snippet of JavaScript to sniff the user agent
+// and apply some conditional CSS.
+//
+// See http://getbootstrap.com/getting-started/#support-ie10-width for the relevant hack.
+
+// Wrap `@viewport` with `@at-root` for when folks do a nested import (e.g.,
+// `.class-name { @import "bootstrap"; }`).
+@at-root {
+  @-moz-viewport {width: device-width;}
+  @-ms-viewport {width: device-width;}
+  @-o-viewport {width: device-width;}
+  @-webkit-viewport {width: device-width;}
+  @viewport {width: device-width;}
+}
 body {
   font-family: $font--primary;
   font-weight: 400;
@@ -23,6 +58,7 @@ body {
   background-color: $color--white;
 }
 a {
+  color: $color--link;
   text-decoration: none;
   @include transition(all);
 }
@@ -43,10 +79,42 @@ h1 {
 h2 {font-size: 2.827rem;}
 h3 {font-size: 1.999rem;}
 h4 {font-size: 1.414rem;}
+// Similarly, the top margin on `<p>`s get reset. However, we also reset the
+// bottom margin to use `rem` units instead of `em`.
 p {
+  margin-top: 0;
   margin-bottom: 1.3rem;
   max-width: rem(520px);
 }
-em {font-style: italic;}
+//em {font-style: italic;}
 small {font-size: .741rem;}
-strong {font-weight: bold;}
+//strong {font-weight: bold;}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {margin-bottom: 0;}
+dt {font-weight: bold;}
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0; // Undo browser default
+}
+img {
+  // By default, `<img>`s are `inline-block`. This assumes that, and vertically
+  // centers them. This won't apply should you reset them to `block` level.
+  vertical-align: middle;
+}
+// iOS "clickable elements" fix for role="button"
+//
+// Fixes "clickability" issue (and more generally, the firing of events such as focus as well)
+// for traditionally non-focusable elements with role="button"
+// see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+// Upstream patch for normalize.css submitted: https://github.com/necolas/normalize.css/pull/379 - remove this fix once that is merged
+[role="button"] {
+  cursor: pointer;
+}

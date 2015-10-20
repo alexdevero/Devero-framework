@@ -6,7 +6,8 @@
 @import '_tools/_tools.functions';
 
 // Base
-@import '_base/_base.reset';
+@import '_base/_base.normalize';
+//@import '_base/_base.reset';
 @import '_base/_base.fonts';
 @import '_base/_base';
 
