@@ -3314,7 +3314,9 @@ strong {
   color: #fff;
   background-color: #222; }
   .btn--full--black:focus, .btn--full--black:hover {
-    background-color: #333; }
+    background-color: #414141; }
+  .btn--full--black:active {
+    background-color: #030303; }
 
 .btn--ghost {
   padding: .5rem 2rem;
@@ -3324,12 +3326,16 @@ strong {
 .btn--ghost--black {
   color: #222; }
   .btn--ghost--black:focus, .btn--ghost--black:hover {
-    color: #333; }
+    color: #414141; }
+  .btn--ghost--black:active {
+    color: #030303; }
 
 .btn--ghost--gold {
   color: #ffeb3b; }
   .btn--ghost--gold:focus, .btn--ghost--gold:hover {
-    color: #ffc107; }
+    color: #fff178; }
+  .btn--ghost--gold:active {
+    color: #fde300; }
 
 .btn--ghost--white {
   color: #fff; }

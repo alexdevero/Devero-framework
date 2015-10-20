@@ -4,7 +4,7 @@
 .btn__container {text-align: center;}
 .btn {
   display: inline-block;
-  font-family: $font--quicksand;
+  font-family: $font--primary;
   font-size: 1rem;
   text-align: center;
   vertical-align: middle;
@@ -27,7 +27,8 @@
   color: #fff;
   background-color: $color--jet;
   &:focus,
-  &:hover {background-color: $color--oil;}
+  &:hover {background-color: lighten($color--jet, 12%);}
+  &:active {background-color: darken($color--jet, 12%);}
 }
 .btn--ghost {
   padding: .5rem 2rem;
@@ -37,12 +38,14 @@
 .btn--ghost--black {
   color: $color--jet;
   &:focus,
-  &:hover {color: $color--oil;}
+  &:hover {color: lighten($color--jet, 12%);}
+  &:active {color: darken($color--jet, 12%);}
 }
 .btn--ghost--gold {
   color: palette(yellow);
   &:focus,
-  &:hover {color: palette(amber);}
+  &:hover {color: lighten(palette(yellow), 12%);}
+  &:active {color: darken(palette(yellow), 12%);}
 }
 .btn--ghost--white {
   color: #fff;
