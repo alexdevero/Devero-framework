@@ -2,20 +2,26 @@
 @import '_settings/_settings.colors';
 @import '_settings/_settings.timing-equations';
 @import '_settings/_settings.variables';
+
 @import '_tools/_tools.mixins';
 @import '_tools/_tools.placeholders';
 @import '_tools/_tools.functions';
 
 // Base
-@import '_base/_base.normalize';
-//@import '_base/_base.reset';
+//@import '_base/_base.normalize';
+@import '_base/_base.reset';
 @import '_base/_base.fonts';
 @import '_base/_base';
+@import '_base/_base.typography';
 
 // Layout
-@import '_layout/_layout.print';
 @import '_layout/_layout.grid';
-@import '_layout/_layout';
+@import '_layout/_layout.print';
+
+// Components
+// @import '_components/_header';
+// @import '_components/_sections';
+// @import '_components/_footer';
 
 // Modules
 @import '_modules/_buttons';
@@ -31,3 +37,6 @@
 // Utility classes
 @import "_utilities/_utilities";
 @import '_utilities/_hacks';
+
+// Pages
+//@import '_pages/_';
