@@ -1,0 +1,195 @@
+/**
+ * Options Panel
+ */
+.options-panel {
+  position: fixed;
+  top: 150px;
+  z-index: 99;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  width: 220px;
+  height: auto;
+  min-height: 150px;
+  text-align: left;
+  background: #ededed;
+  border: 1px solid #ededed;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: all .5s ease-in-out;
+}
+.options-panel h3 {
+  color: #2f2f2f;
+}
+.options-panel .panel-button {
+  position: absolute;
+  top: 30px;
+  right: -68px;
+  padding-top: 6px;
+  width: 95px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000;
+  border: 1px solid #000;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  cursor: pointer;
+  transition: background .25s ease-in-out;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.options-panel .panel-button:focus,
+.options-panel .panel-button:hover {
+  background: #333;
+}
+.close-panel {
+  left: -220px;
+}
+.open-panel {
+  left: -1px;
+}
+.options-panel .area {
+  width: 100%;
+}
+.options-panel .switch,
+.options-panel .theme {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 3px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.options-panel .switch {
+  transition: border .25s ease-in-out;
+}
+.options-panel .switch:focus,
+.options-panel .switch:hover {
+  border: 1px solid #333;
+}
+
+/* Color Options */
+.pure-cyan {
+  background: #00e676;
+}
+.emerald {
+  background: #40d47e;
+}
+.turquoise {
+  background: #2ecc71;
+}
+.nephritis {
+  background: #27ae60;
+}
+.green-sea {
+  background: #16a085;
+}
+.pure-green {
+  background: #aeea00;
+}
+.bright-lime {
+  background: #cddc39;
+}
+.lime {
+  background: #acd323;
+}
+.strong-lime {
+  background: #afb42b;
+}
+.peter-river {
+  background: #3498db;
+}
+.belize-hole {
+  background: #2980b9;
+}
+.deep-blue {
+  background: #4c7298;
+}
+.wet-asphalt {
+  background: #34495e;
+}
+.midnight-blue {
+  background: #2c3e50;
+}
+.bright-pink {
+  background: #ec407a;
+}
+.pure-pink {
+  background: #f50057;
+}
+.vivid-pink {
+  background: #e91e63;
+}
+.amethyst {
+  background: #9b59b6;
+}
+.wisteria {
+  background: #8e44ad;
+}
+.pure-violet {
+  background: #6200ea;
+}
+.dark-violet {
+  background: #4a148c;
+}
+.bright-yellow {
+  background: #fdd835;
+}
+.sun-flower {
+  background: #f1c40f;
+}
+.orange {
+  background: #f39c12;
+}
+.carrot {
+  background: #e67e22;
+}
+.pumpkin {
+  background: #d35400;
+}
+.brown {
+  background: #795548;
+}
+.dark-brown {
+  background: #3e2723;
+}
+.red {
+  background: #e74c3c;
+}
+.alizarin {
+  background: #e74c3c;
+}
+.strong-red {
+  background: #d50000;
+}
+.pomegranate {
+  background: #c0392b;
+}
+.silver {
+  background: #bdc3c7;
+}
+.concrete {
+  background: #95a5a6;
+}
+.asbestos {
+  background: #7f8c8d;
+}
+.grey {
+  background: #5f7488;
+}
+.dark-blue-grey {
+  background: #37474f;
+}
+
+/* Print */
+@media only print {
+  .options-panel {
+    display: none;
+  }
+}

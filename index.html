@@ -45,12 +45,123 @@
   <!-- Fonts -->
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/main.css"><!-- Master stylesheet -->
+
+  <!-- Options Panel Styles (remove me for production) -->
+  <link rel="stylesheet" href="panel/options-panel.css">
+
+  <!-- Color Options (remove me for production) -->
+  <link id="color-options" rel="stylesheet" href="styles/colors/red.min.css">
+
+  <!-- Font Options (remove me for production) -->
+  <link id="font-option-styles" rel="stylesheet" href="">
 </head>
 <body>
   <div class="wrapper">
     <!--[if lt IE 9]>
       <p class="upgrade-browser">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    
+    <!-- Options Panel (remove me for production) -->
+    <section id="options-panel" class="options-panel close-panel">
+      <!-- Panel Button -->
+      <a class="panel-button">Options</a>
+
+      <!-- Color Options -->
+      <div class="area">
+        <h4 class="margin-reset--top">Color Options</h4>
+        <a title="pure-cyan" class="switch pure-cyan"></a>
+        <a title="emerald" class="switch emerald"></a>
+        <a title="turquoise" class="switch turquoise"></a>
+        <a title="nephritis" class="switch nephritis"></a>
+        <a title="green-sea" class="switch green-sea"></a>
+        <a title="pure-green" class="switch pure-green"></a>
+        <a title="lime" class="switch lime"></a>
+        <a title="bright-yellow" class="switch bright-yellow"></a>
+        <a title="sun-flower" class="switch sun-flower"></a>
+        <a title="orange" class="switch orange"></a>
+        <a title="carrot" class="switch carrot"></a>
+        <a title="pumpkin" class="switch pumpkin"></a>
+        <a title="red" class="switch red"></a>
+        <a title="alizarin" class="switch alizarin"></a>
+        <a title="strong-red" class="switch strong-red"></a>
+        <a title="pomegranate" class="switch pomegranate"></a>
+        <a title="brown" class="switch brown"></a>
+        <a title="dark-brown" class="switch dark-brown"></a>
+        <a title="bright-pink" class="switch bright-pink"></a>
+        <a title="pure-pink" class="switch pure-pink"></a>
+        <a title="vivid-pink" class="switch vivid-pink"></a>
+        <a title="amethyst" class="switch amethyst"></a>
+        <a title="wisteria" class="switch wisteria"></a>
+        <a title="pure-violet" class="switch pure-violet"></a>
+        <a title="dark-violet" class="switch dark-violet"></a>
+        <a title="peter-river" class="switch peter-river"></a>
+        <a title="belize-hole" class="switch belize-hole"></a>
+        <a title="deep-blue" class="switch deep-blue"></a>
+        <a title="wet-asphalt" class="switch wet-asphalt"></a>
+        <a title="midnight-blue" class="switch midnight-blue"></a>
+        <a title="silver" class="switch silver"></a>
+        <a title="concrete" class="switch concrete"></a>
+        <a title="asbestos" class="switch asbestos"></a>
+        <a title="grey" class="switch grey"></a>
+        <a title="dark-blue-grey" class="switch dark-blue-grey"></a>
+      </div><!-- end panel area -->
+
+      <!-- Font Options-->
+      <div class="area">
+        <h4 class="margin-reset--top">Font Options</h4>
+        <select class="font" onChange="">
+          <option value="Select Font Variation" title="Select Font Variation" selected>Select Font Variation</option>
+          <option value="alegreya-sans">Alegreya Sans</option>
+          <option value="arimo">Arimo</option>
+          <option value="arvo">Arvo</option>
+          <option value="asap">Asap</option>
+          <option value="bitter">Bitter</option>
+          <option value="cabin">Cabin</option>
+          <option value="dosis">Dosis</option>
+          <option value="droid-sans">Droid Sans</option>
+          <option value="droid-serif">Droid Serif</option>
+          <option value="crimson-text">Crimson Text</option>
+          <option value="hind">Hind</option>
+          <option value="inconsolata">Inconsolata</option>
+          <option value="josefin-sans">Josefin Sans</option>
+          <option value="lato">Lato</option>
+          <option value="libre-baskerville">Libre Baskerville</option>
+          <option value="lora">Lora</option>
+          <option value="merriweather">Merriweather</option>
+          <option value="merriweather-sans">Merriweather Sans</option>
+          <option value="montserrat">Montserrat</option>
+          <option value="noto-sans">Noto Sans</option>
+          <option value="noto-serif">Noto Serif</option>
+          <option value="open-sans">Open Sans</option>
+          <option value="oxygen">Oxygen</option>
+          <option value="playfair-display">Playfair Display</option>
+          <option value="ptsans-web">PT Sans</option>
+          <option value="quicksand">Quicksand</option>
+          <option value="raleway">Raleway</option>
+          <option value="roboto">Roboto</option>
+          <option value="roboto-slab">Roboto Slab</option>
+          <option value="rokkitt">Rokkitt</option>
+          <option value="source-code-pro">Source Code Pro</option>
+          <option value="source-sans-pro">Source Sans Pro</option>
+          <option value="titillium">Titillium</option>
+          <option value="ubuntu">Ubuntu</option>
+          <option value="vollkorn">Vollkorn</option>
+        </select>
+      </div><!-- end panel area -->
+
+      <!-- Header Templates-->
+      <div class="area">
+        <h4 class="margin-reset--top">Pages</h4>
+        <select onChange="window.document.location.href=this.options[this.selectedIndex].value;">
+          <option value="Select Page" selected>Select Page</option>
+          <option value="index.html">Parallax Background</option>
+          <option value="index-slider.html">Full Screen Slider</option>
+          <option value="index-video.html">Full Screen Video</option>
+          <option value="features.html">Features</option>
+        </select>
+      </div><!-- end panel area -->
+    </section><!-- end options panel -->
+    
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
@@ -59,6 +170,10 @@
         document.getElementsByClassName("no-js")[0].classList.remove("no-js");
       })()
     </script>
+
+    <!-- Options Panel Script (remove me for production) -->
+    <script src="panel/options-panel.js"></script>
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

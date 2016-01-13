@@ -1,6 +1,18 @@
-/*---------------------------------*\
-  Bootstrap 4 Grid
-\*---------------------------------*/
+/**
+ * Bootstrap 4 Grid
+ */
+ /* Proper box sizing */
+ html {
+  box-sizing: border-box;
+  font-size: 1rem;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+*,
+:after,
+:before {box-sizing: inherit;}
+
+/* Grid System */
 .container {
   padding-right: .9375rem;
   padding-left: .9375rem;
@@ -47,6 +59,7 @@
   content: " ";
 }
 .row:after {clear: both;}
+
 /**
 * Extra Small screen < 544px
 */
@@ -178,6 +191,7 @@
 .col-xs-offset-10 {margin-left: 83.333333%;}
 .col-xs-offset-11 {margin-left: 91.666667%;}
 .col-xs-offset-12 {margin-left: 100%;}
+
 /**
 * Small screen >= 544px
 */
@@ -246,6 +260,7 @@
   .col-sm-offset-11 {margin-left: 91.666667%;}
   .col-sm-offset-12 {margin-left: 100%;}
 }
+
 /**
 * Medium screen >= 768px
 */
@@ -314,6 +329,7 @@
   .col-md-offset-11 {margin-left: 91.666667%;}
   .col-md-offset-12 {margin-left: 100%;}
 }
+
 /**
 * Big screen >= 992px
 */
@@ -382,6 +398,7 @@
   .col-lg-offset-11 {margin-left: 91.666667%;}
   .col-lg-offset-12 {margin-left: 100%;}
 }
+
 /**
 * Large screen >= 1200px
 */
