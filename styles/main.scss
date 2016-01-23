@@ -12,13 +12,15 @@
  *
  * 1. Base
  * 2. Layout
- * 3. Modules
- * 4. Utilities
+ * 3. Components
+ * 4. Modules
+ * 5. Utilities
+ * 6. Pages
  */
 
 // Base
-//@import '_base/_base.normalize';
-@import '_base/_base.reset';
+//@import '_base/_base.reset';
+@import '_base/_base.normalize';
 @import '_base/_base.fonts';
 @import '_base/_base';
 @import '_base/_base.typography';
