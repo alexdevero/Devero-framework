@@ -55,7 +55,7 @@
   <!-- Font Options (remove me for production) -->
   <link id="font-option-styles" rel="stylesheet" href="">
 </head>
-<body>
+<body class="no-js">
   <div class="wrapper">
     <!--[if lt IE 9]>
       <p class="upgrade-browser">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -68,7 +68,7 @@
 
       <!-- Color Options -->
       <div class="area">
-        <h4 class="margin-reset--top">Color Options</h4>
+        <h4 class="panel__title">Color Options</h4>
         <a title="pure-cyan" class="switch pure-cyan"></a>
         <a title="emerald" class="switch emerald"></a>
         <a title="turquoise" class="switch turquoise"></a>
@@ -108,9 +108,9 @@
 
       <!-- Font Options-->
       <div class="area">
-        <h4 class="margin-reset--top">Font Options</h4>
+        <h4 class="panel__title">Font Options</h4>
         <select class="font" onChange="">
-          <option value="Select Font Variation" title="Select Font Variation" selected>Select Font Variation</option>
+          <option value="Select Font Variation" selected>Select Font Variation</option>
           <option value="alegreya-sans">Alegreya Sans</option>
           <option value="arimo">Arimo</option>
           <option value="arvo">Arvo</option>
@@ -151,12 +151,23 @@
 
       <!-- Header Templates-->
       <div class="area">
-        <h4 class="margin-reset--top">Pages</h4>
+        <h4 class="panel__title">Pages</h4>
         <select onChange="window.document.location.href=this.options[this.selectedIndex].value;">
           <option value="Select Page" selected>Select Page</option>
           <option value="index.html">Parallax Background</option>
-          <option value="index-slider.html">Full Screen Slider</option>
-          <option value="index-video.html">Full Screen Video</option>
+          <option value="index-slider.html">Full-Screen Slider</option>
+          <option value="index-video.html">Full-Screen Video</option>
+          <option value="gallery-camping-grid.html">Gallery - Grid</option>
+          <option value="gallery-camping-masonry.html">Gallery - Masonry</option>
+          <option value="blog-no-sidebar.html">Blog Without Sidebar</option>
+          <option value="blog-no-sidebar-full-width.html">Blog Full-Width</option>
+          <option value="blog-sidebar-left.html">Blog With Left Sidebar</option>
+          <option value="blog-sidebar-right.html">Blog With Right Sidebar</option>
+          <option value="blog-post-no-sidebar.html">Blog Post Without Sidebar</option>
+          <option value="blog-post-sidebar-left.html">Blog Post With Left Sidebar</option>
+          <option value="blog-post-sidebar-right.html">Blog Post With Right Sidebar</option>
+          <option value="404.html">404</option>
+          <option value="404-2.html">404 - Video</option>
           <option value="features.html">Features</option>
         </select>
       </div><!-- end panel area -->

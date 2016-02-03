@@ -1,14 +1,43 @@
 /**
  * Options Panel
  */
+/* Proper box sizing */
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+/* Reseting Styles */
+div,
+span,
+/*h4,
+a,*/
+section {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+/* Panel Styles */
 .options-panel {
   position: fixed;
   top: 150px;
-  z-index: 99;
+  z-index: 999;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  display: block;
   width: 220px;
   height: auto;
   min-height: 150px;
@@ -19,16 +48,13 @@
   border-bottom-right-radius: 3px;
   transition: all .5s ease-in-out;
 }
-.options-panel h3 {
-  color: #2f2f2f;
-}
 .options-panel .panel-button {
   position: absolute;
-  top: 30px;
-  right: -68px;
-  padding-top: 6px;
-  width: 95px;
-  height: 40px;
+  top: 66px;
+  right: -107px;
+  padding-top: 11px;
+  width: 166px;
+  height: 46px;
   font-size: 14px;
   font-weight: 400;
   color: #fff;
@@ -47,6 +73,13 @@
 .options-panel .panel-button:focus,
 .options-panel .panel-button:hover {
   background: #333;
+  border: 1px solid #333;
+}
+.close-panel .panel-button {
+  padding-top: 11px;
+}
+.open-panel .panel-button {
+  padding-top: 12px;
 }
 .close-panel {
   left: -220px;
@@ -56,6 +89,31 @@
 }
 .options-panel .area {
   width: 100%;
+}
+.options-panel .panel__title,
+.options-panel a {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  line-height: 1.45;
+}
+.options-panel .panel__title {
+  color: #6f6f6f;
+}
+.options-panel .area:nth-child(2n+1) .panel__title {
+  margin-top: 1rem;
+}
+.options-panel input,
+.options-panel select {
+  padding: 6px 10px;
+  width: 100%;
+  height: 2.375rem;
+  font-family: inherit;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
 }
 .options-panel .switch,
 .options-panel .theme {

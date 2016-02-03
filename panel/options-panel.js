@@ -1,8 +1,8 @@
 (function() {
   // Open and Close Options Panel
-  $( "#options-panel .panel-button" ).click(function(){
-    $( "#options-panel" ).toggleClass( "close-panel", "open-panel", 800 );
-    $( "#options-panel" ).toggleClass( "open-panel", "close-panel", 800 );
+  $('#options-panel .panel-button').click(function(){
+    $('#options-panel').toggleClass('close-panel', 'open-panel', 800);
+    $('#options-panel').toggleClass('open-panel', 'close-panel', 800);
     return false;
   });
 
