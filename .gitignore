@@ -1,7 +1,38 @@
-.tmp
-tmp
+# Folders for inspiration, notes, etc. #
+#####################################
+_moodboard/
+_notes/
+_help/
+_preview/
+_ignore/
+
+# CSS files #
+#############
+css/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Minified files #
+##################
+*.min.*
+
+# Development folders and files #
+#################################
 .git
-node_modules
-.help
-.moodboard
-.preview
+.tmp/
+node_modules/
+dist/
+.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
