@@ -1,14 +1,8 @@
-# Folders for inspiration, notes, etc. #
+# Folders for inspiration and notes #
 #####################################
 _moodboard/
 _notes/
-_help/
 _preview/
-_ignore/
-
-# CSS files #
-#############
-css/
 
 # Packages #
 ############
@@ -31,8 +25,7 @@ css/
 #################################
 .git
 .tmp/
-node_modules/
 dist/
-.sublime-grunt.cache
+node_modules/
 *.sublime-project
 *.sublime-workspace
