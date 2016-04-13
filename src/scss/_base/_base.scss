@@ -1,6 +1,21 @@
 /**
  * Base
  */
+@-moz-viewport {
+  width: device-width;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@-webkit-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
 html,
 body {
   width: 100%;
@@ -8,16 +23,21 @@ body {
 }
 html {
   box-sizing: border-box;
-  font-size: 1.125rem;
+  font-size: 16px;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 *,
-:after,
-:before {box-sizing: inherit;}
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
 body {
   font-family: $font--primary;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.45;
+  line-height: 1.5;
   color: $color--oil;
 }
