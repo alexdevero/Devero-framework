@@ -245,6 +245,37 @@ section {
   background: #37474f;
 }
 
+.options-panel .panel-button-cta {
+  display: inline-block;
+  padding-top: .618rem;
+  padding-bottom: .618rem;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 11.25rem;
+  font: 100% / 1.618 "Ubuntu", arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 2.1875rem;
+  cursor: pointer;
+  outline: 0;
+  transition: all .25s cubic-bezier(.4, 0, 1, 1);
+}
+
+.options-panel .panel-button-cta:focus,
+.options-panel .panel-button-cta:hover {
+  background: #6cb5e5;
+  border-color: #6cb5e5;
+}
+
+
 /* Print */
 @media only print {
   .options-panel {
