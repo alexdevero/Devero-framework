@@ -1,65 +1,91 @@
 'use strict';
 
-var gulp = require('gulp');
-var autoprefixer = require('gulp-autoprefixer');
-var changed = require('gulp-changed');
-var gulpCopy = require('gulp-copy');
-var html5Lint = require('gulp-html5-lint');
-var htmlmin = require('gulp-htmlmin');
-var imagemin = require('gulp-imagemin');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var uglify = require('gulp-uglify');
-var pngquant = require('imagemin-pngquant');
+var gulp = require('gulp'),
+    autoprefixer = require('gulp-autoprefixer'),
+    changed = require('gulp-changed'),
+    concat = require('gulp-concat'),
+    csscomb = require('gulp-csscomb'),
+    csslint = require('gulp-csslint'),
+    gulpCopy = require('gulp-copy'),
+    html5Lint = require('gulp-html5-lint'),
+    htmlmin = require('gulp-htmlmin'),
+    imagemin = require('gulp-imagemin'),
+    rename = require('gulp-rename'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    uglify = require('gulp-uglify'),
+    gulpUtil = require('gulp-util'),
+    pngquant = require('imagemin-pngquant');
+
+// Concatenate JavaScript files
+/*gulp.task('concatJS', function() {
+  return gulp.src('./src/js/main.js')
+    .pipe(concat('main.min.js'))
+    .pipe(gulp.dest('./dist/js/'));
+});*/
 
 // Minify HTML files
-gulp.task('minifyHTML', function() {
+
+gulp.task('html', function() {
   return gulp.src('src/*.html')
     .pipe(changed('dist'))
     //.pipe(html5Lint())
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(gulp.dest('dist'))
 });
+
 // Copy CSS files
+
 gulp.task('copyCSS', function() {
   return gulp.src('src/css/*')
     .pipe(changed('dist/css'))
     .pipe(gulp.dest('dist/css'));
 });
+
 // Copy font files
+
 gulp.task('copyFonts', function() {
   return gulp.src('src/fonts/*')
     .pipe(changed('dist/fonts'))
     .pipe(gulp.dest('dist/fonts'));
 });
+
 // Copy JS plugins files
+
 gulp.task('copyJSPlug', function() {
-  return gulp.src('src/js/plugins/*')
+  return gulp.src(['src/js/plugins/*', '!src/js/plugins/*.rar'])
     .pipe(changed('dist/js/plugins/'))
     .pipe(gulp.dest('dist/js/plugins/'));
 });
+
 // Copy JS vendor files
+
 gulp.task('copyJSVen', function() {
-  return gulp.src('src/js/vendor/*')
+  return gulp.src(['src/js/vendor/*', '!src/js/vendor/*.rar'])
     .pipe(changed('dist/js/vendor/'))
     .pipe(gulp.dest('dist/js/vendor/'));
 });
+
 // Copy other files
+
 gulp.task('copyOther', function() {
   return gulp.src([
-    'src/contact.php',
+    'src/.htaccess',
     'src/crossdomain.xml',
     'src/humans.txt',
-    'src/robots.txt'
+    'src/robots.txt',
+    'src/contact.php'
   ])
-    .pipe(changed('dist/'))
+    .pipe(changed('dist'))
     .pipe(gulp.dest('dist'));
 });
+
 // Automate copying
+
 gulp.task('copyAll', ['copyCSS', 'copyFonts', 'copyJSPlug', 'copyJSVen', 'copyOther'], function() {});
 
 // Compress images
+
 gulp.task('images', function () {
   return gulp.src(['src/images/**/*', '!src/images/**/*.rar'])
     .pipe(changed('dist/images'))
@@ -70,52 +96,49 @@ gulp.task('images', function () {
     }))
     .pipe(gulp.dest('dist/images'));
 });
+
 // Sass to CSS
-gulp.task('sass', function() {
+
+gulp.task('sassMin', function() {
   return gulp.src('src/scss/main.scss')
     //.pipe(changed('dist/css', {extension: '.css'}))
     .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'uncompressed'}).on('error', sass.logError))
-    //.pipe(rename({suffix: '.min'}))
+    .pipe(csslint('csslintrc.json'))
+    .pipe(csslint.reporter())
+    .pipe(sass({outputStyle: 'compressed'}).on('error', function(e) {
+      console.log(e + '\r\n There\'s something wrong with the Sass file(s).')
+    }))
     .pipe(autoprefixer({
-			browsers: ['last 2 versions']
-		}))
+      browsers: ['last 2 versions']
+    }))
+    .pipe(csscomb())
+    .pipe(rename({suffix: '.min'}))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist/css'));
 });
-// Sass color themes to CSS
-gulp.task('sassThemes', function() {
-  return gulp.src('src/scss/themes/*.scss')
-    //.pipe(changed('dist/css', {extension: '.css'}))
-    .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'uncompressed'}).on('error', sass.logError))
-    //.pipe(rename({suffix: '.min'}))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/css/themes/'));
-});
-// Sass fonts to CSS
-gulp.task('sassFonts', function() {
-  return gulp.src('src/scss/fonts/*.scss')
-    //.pipe(changed('dist/css', {extension: '.css'}))
-    .pipe(sourcemaps.init())
-    .pipe(sass({outputStyle: 'uncompressed'}).on('error', sass.logError))
-    //.pipe(rename({suffix: '.min'}))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/css/fonts/'));
-});
+
 // Minify JavaScript files
-gulp.task('minifyJS', function() {
+
+gulp.task('js', function() {
   return gulp.src('src/js/main.js')
     .pipe(changed('dist/js'))
-    //.pipe(uglify())
-    //.pipe(rename({suffix: '.min'}))
+    .pipe(uglify().on('error', function(e) {
+      console.log(e + '\r\n There\'s something wrong with the JavaScript file(s).')
+    }))
+    .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/js'));
 });
+
+// Watch HTML, CSS and JavaScript files
+
 gulp.task('watch', function() {
-  gulp.watch('src/*.html', ['minifyHTML']);
+  gulp.watch('src/*.html', ['html']);
+  gulp.watch('src/*.php', ['copyOther']);
   gulp.watch('src/scss/**/*.scss', ['sass']);
-  gulp.watch('src/js/main.js', ['minifyJS']);
-  gulp.watch('src/images/**/*', ['images']);
+  gulp.watch('src/css/**/*.css', ['copyCSS']);
+  gulp.watch('src/js/main.js', ['js']);
 });
+
 // Automate tasks (cmd: gulp)
-gulp.task('default', ['minifyHTML', 'copyAll', 'images', 'sass', 'minifyJS'], function() {});
+
+gulp.task('default', ['minHTML', 'copyAll', 'images', 'sass', 'minJS'], function() {});
