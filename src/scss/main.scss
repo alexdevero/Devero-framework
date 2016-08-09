@@ -1,53 +1,49 @@
 // Core variables and mixins
-@import '_settings/_settings.colors';
-@import '_settings/_settings.timing-equations';
-@import '_settings/_settings.variables';
+@import '_settings/_colors';
+@import '_settings/_timing-equations';
+@import '_settings/_config';
 
-@import '_tools/_tools.mixins';
-@import '_tools/_tools.placeholders';
-@import '_tools/_tools.functions';
+@import '_tools/_mixins';
+@import '_tools/_placeholders';
+@import '_tools/_functions';
 
 /**
  * Table of contents
  *
  * 1. Base
- * 2. Layout
- * 3. Components
- * 4. Modules
- * 5. Utilities
+ * 2. Atoms
+ * 3. Molecules
+ * 4. Organisms
+ * 5. Templates
  * 6. Pages
+ * 7. Utilities
  */
 
 // Base
-//@import '_base/_base.reset';
-@import '_base/_base.normalize';
-@import '_base/_base.fonts';
+@import '_base/_normalize';
+@import '_base/_fonts';
+@import '_base/_print';
 @import '_base/_base';
-@import '_base/_base.typography';
+@import '_base/_typography';
 
-// Layout
-@import '_layout/_layout.grid';
-@import '_layout/_layout.print';
+// Atoms
+@import '_atoms/_atom-default';
 
-// Components
-// @import '_components/_header';
-// @import '_components/_sections';
-// @import '_components/_footer';
+// Molecules
+@import '_molecules/_molecule-default';
 
-// Modules
-@import '_modules/_buttons';
-@import '_modules/_dividers';
-@import '_modules/_forms';
-@import '_modules/_heroes';
-@import '_modules/_icons';
-@import '_modules/_inserts';
-@import '_modules/_links';
-@import '_modules/_navigation';
-@import '_modules/_overlays';
+// Organisms
+@import '_organisms/_organism-default';
+@import '_organisms/_footer';
+@import '_organisms/_header';
 
-// Utility classes
-@import "_utilities/_utilities";
-@import '_utilities/_hacks';
+// Templates
+@import '_templates/_template-default';
+@import '_templates/_grid';
 
 // Pages
-//@import '_pages/_';
+@import '_pages/_page-default';
+
+// Utilities
+@import "_utilities/_utilities";
+@import '_utilities/_hacks';
