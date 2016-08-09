@@ -1,0 +1,151 @@
+/*---------------------------------*\
+  Form
+\*---------------------------------*/
+input[type="search"] {
+  // This overrides the extra rounded corners on search inputs in iOS so that our
+  // `.form-control` class can properly style them. Note that this cannot simply
+  // be added to `.form-control` as it's not specific enough. For details, see
+  // https://github.com/twbs/bootstrap/issues/11586.
+  -webkit-appearance: none;
+}
+textarea {
+  // Textareas should really only resize vertically so they don't break their (horizontal) containers.
+  resize: vertical;
+}
+.form__details input,
+.form__message textarea {
+  display: block;
+  padding: 13px;
+  margin: auto;
+  width: 100%;
+  font-family: $font--primary;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+.form__details,
+.form__message {margin-bottom: 1em;}
+.form__check,
+.form__robot,
+.form__robot div {margin-bottom: 1em;}
+.form__switch {
+  position: relative;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.form__switch input {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  padding: 0;
+  opacity: 0;
+}
+.form__switch input+label {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  width: 5rem;
+  height: 2rem;
+  color: transparent;
+  background: $color--gainsboro;
+  border-radius: rem(15px);
+  cursor: pointer;
+  &:after {
+    position: absolute;
+    top: .25rem;
+    left: .25rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: "";
+    background: #fff;
+    border-radius: 50%;
+
+    @include transition(all);
+  }
+}
+.form__switch input:checked + label {
+  background-color: $color--jet;
+  &:after {left: 3.25rem;}
+}
+.label--robot {
+  position: relative;
+  top: -11px;
+  left: 10px;
+}
+
+/**
+ * From Skeleton Framework
+ */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  box-sizing: border-box; 
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  height: 38px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+textarea {
+  padding-top: 6px;
+  padding-bottom: 6px; 
+  min-height: 65px;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33c3f0;
+  outline: 0;
+}
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+}
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal;
+}
