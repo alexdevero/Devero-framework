@@ -1,20 +1,15 @@
 ///
 // Mixin imports
 ///
-// Utilities
+
 @import "mixins/_box-shadow";
+@import "mixins/_center--block";
+@import "mixins/_clearfix";
+@import "mixins/_pulls";
 @import "mixins/_retina";
 @import "mixins/_screen-reader";
 @import "mixins/_text--hide";
 @import "mixins/_text--truncate";
 @import "mixins/_transition";
-
-// Components
-//@import "mixins/_buttons";
 @import "mixins/_triangles";
-
-// Layout
-@import "mixins/_center--block";
-@import "mixins/_clearfix";
-@import "mixins/_pulls";
 @import "mixins/_vertical-center";
