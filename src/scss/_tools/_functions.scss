@@ -1,14 +1,17 @@
-///
+//
+// Functions
+//
+
 // Px to rem
-///
-@function rem($target) {
-  @return ($target / 16px) * 1rem;
+@function remy($target, $base: 16px) {
+  @return ($target / $base) * 1rem;
 }
-///
+
 // Color grabber
-///
 @function palette($color, $shade: 500) {
   $colorMap: map-get($palette, $color);
+
   $result: map-get($colorMap, $shade);
+
   @return $result;
 }
