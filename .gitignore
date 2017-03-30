@@ -1,9 +1,24 @@
+# Development folders and files #
+#################################
+.git
+.tmp/
+dist/
+node_modules/
+
+# Docs files #
+#############
+*.pdf
+
 # Folders for inspiration and notes #
 #####################################
 _moodboard/
 _notes/
 _preview/
 _ignore/
+
+# Minified files #
+##################
+*.min.*
 
 # Packages #
 ############
@@ -17,16 +32,3 @@ _ignore/
 *.rar
 *.tar
 *.zip
-
-# Minified files #
-##################
-*.min.*
-
-# Development folders and files #
-#################################
-.git
-.tmp/
-dist/
-node_modules/
-*.sublime-project
-*.sublime-workspace
