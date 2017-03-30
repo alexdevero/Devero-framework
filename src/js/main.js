@@ -14,7 +14,7 @@
     },
     appSwitches: function() {
       // Conditions for switches
-      if () {}
+      if (true) {}
     },
     init: function() {
       // Remove 'no-js' class as a test of available JavaScript
