@@ -5,8 +5,8 @@ import plumber from 'gulp-plumber';
 
 // Minify HTML files
 gulp.task('html:min', () => {
+  const browserSync = require('browser-sync');
   const changed = require('gulp-changed');
-  const connect = require('gulp-connect');
   const htmlmin = require('gulp-htmlmin');
   const rename = require('gulp-rename');
 
@@ -21,7 +21,9 @@ gulp.task('html:min', () => {
       suffix: '.min'
     }))
     .pipe(gulp.dest('dist'))
-    .pipe(connect.reload());
+    .pipe(browserSync.stream({
+      match: '**/*.html'
+    }));
 });
 
 // Hint HTML files
