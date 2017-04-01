@@ -24,20 +24,23 @@ gulp.task('build', sequence(['html:min', 'copy:all'], ['images', 'sass', 'sass:m
 gulp.task('clean', ['clean:dist']);
 
 // Setup development environment
-gulp.task('dev', sequence('build', 'watch'));
+gulp.task('dev', sequence('build', 'server'));
 
 // Test task for testing HTML, Sass and JavaScript
 gulp.task('test', sequence('html:test', 'sass:test', 'js:test'));
 
-// Watch HTML, CSS and JavaScript files
-gulp.task('watch', ['server'], () => {
-  gulp.watch('src/*.html', ['html:min']);
-  gulp.watch('src/*.php', ['copy:php']);
-  gulp.watch(['src/*.php', 'src/*.txt'], ['copy:other']);
-  gulp.watch('src/scss/**/*.scss', ['sass']);
-  gulp.watch('src/css/**/*.css', ['copy:css']);
-  gulp.watch('src/js/main.js', ['js']);
-  gulp.watch(['src/images/**/*', '!src/images/**/*.rar'], ['images']);
+// Start server and watch HTML, CSS and JavaScript files for changes
+gulp.task('server', ['browser-sync'], () => {
+  const browserSync = require('browser-sync');
+  const reload = browserSync.reload;
+
+  gulp.watch('src/*.html', ['html:min'], reload);
+  gulp.watch('src/*.php', ['copy:php'], reload);
+  gulp.watch(['src/*.php', 'src/*.txt'], ['copy:other'], reload);
+  gulp.watch('src/scss/**/*.scss', ['sass'], reload);
+  gulp.watch('src/css/**/*.css', ['copy:css'], reload);
+  gulp.watch('src/js/main.js', ['js'], reload);
+  gulp.watch(['src/images/**/*', '!src/images/**/*.rar'], ['images'], reload);
 });
 
 // Create default task (cmd: gulp)

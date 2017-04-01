@@ -2,6 +2,7 @@
 
 import gulp from 'gulp';
 import plumber from 'gulp-plumber';
+import browserSync from 'browser-sync';
 
 // Concatenate JavaScript files
 gulp.task('js:concat', function() {
@@ -16,21 +17,21 @@ gulp.task('js:concat', function() {
 gulp.task('js', () => {
   const babel = require('gulp-babel');
   const changed = require('gulp-changed');
-  const connect = require('gulp-connect');
 
   return gulp.src('src/js/main.js')
     .pipe(plumber())
     .pipe(changed('dist/js'))
     .pipe(babel())
     .pipe(gulp.dest('dist/js'))
-    .pipe(connect.reload());
+    .pipe(browserSync.stream({
+      match: '**/*.js'
+    }));
 });
 
 // Minify JavaScript main file
 gulp.task('js:min', () => {
   const babel = require('gulp-babel');
   const changed = require('gulp-changed');
-  const connect = require('gulp-connect');
   const rename = require('gulp-rename');
   const uglify = require('gulp-uglify');
 
@@ -45,7 +46,9 @@ gulp.task('js:min', () => {
       suffix: '.min'
     }))
     .pipe(gulp.dest('dist/js'))
-    .pipe(connect.reload());
+    .pipe(browserSync.stream({
+      match: '**/*.min.js'
+    }));
 });
 
 gulp.task('js:test', () => {
