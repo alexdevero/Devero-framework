@@ -3,7 +3,7 @@
 // usage palette-grabber(@timing-equations, $ease-in, quad)
 
 $timing-equations: (
-  $ease-in: (
+  ease-in: (
     quad: cubic-bezier(.55, .085, .68, .53),
     cubic: cubic-bezier(.55, .055, .675, .19),
     quart: cubic-bezier(.895, .03, .685, .22),
@@ -13,7 +13,7 @@ $timing-equations: (
     circ: cubic-bezier(.6, .04, .98, .335),
     back: cubic-bezier(.6, -.28, .735, .045)
   ),
-  $ease-out: (
+  ease-out: (
     quad: cubic-bezier(.25, .46, .45, .94),
     cubic: cubic-bezier(.215, .61, .355, 1),
     quart: cubic-bezier(.165, .84, .44, 1),
@@ -23,7 +23,7 @@ $timing-equations: (
     circ: cubic-bezier(.075, .82, .165, 1),
     back: cubic-bezier(.175, .885, .32, 1.275)
   ),
-  $ease-in-out: (
+  ease-in-out: (
     quad: cubic-bezier(.455, .03, .515, .955),
     cubic: cubic-bezier(.645, .045, .355, 1),
     quart: cubic-bezier(.77, 0, .175, 1),
