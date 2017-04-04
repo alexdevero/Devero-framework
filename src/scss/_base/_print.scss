@@ -2,35 +2,76 @@
   Print stylesheet
 \*-------------------------------*/
 @media print {
-  *,
-  *:before,
-  *:after {
-    text-shadow: none !important;
-    color: #000 !important;
-    background: transparent !important;
-    box-shadow: none !important;
+  // sass-lint:disable-block no-important
+  * {
+    &,
+    &:before,
+    &:after {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
   }
-  a,
-  a:visited {text-decoration: underline;}
-  a[href]:after {content: " (" attr(href)")";}
-  abbr[title]:after {content: " (" attr(title)")";}
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {content: "";}
+  // sass-lint:enable-block no-important
+
+  a {
+    &,
+    &:visited {
+      text-decoration: underline;
+    }
+  }
+
+  // sass-lint:disable-block no-qualifying-elements
+  a[href] {
+    :after {
+      content: ' (' attr(href)')';
+    }
+  }
+
+  abbr[title] {
+    &:after {
+      content: ' (' attr(title)')';
+    }
+  }
+
+  a[href^='#'],
+  a[href^='javascript:'] {
+    &:after {
+      content: '';
+    }
+  }
+  // sass-lint:enable-block no-qualifying-elements
+
   pre,
   blockquote {
-  border: 1px solid #999;
-  page-break-inside: avoid;
-}
-  thead {display: table-header-group;}
+    border: 1px solid #999;
+
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
   tr,
-  img {page-break-inside: avoid;}
-  img {max-width: 100%!important;}
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important; // sass-lint:disable-line no-important
+  }
+
   p,
   h2,
   h3 {
     orphans: 3;
-    widows: 3
+    widows: 3;
   }
+
   h2,
-  h3 {page-break-after: avoid;}
+  h3 {
+    page-break-after: avoid;
+  }
 }
