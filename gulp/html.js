@@ -10,9 +10,9 @@ gulp.task('html:min', () => {
   const htmlmin = require('gulp-htmlmin');
   const rename = require('gulp-rename');
 
-  return gulp.src('src/*.html')
+  return gulp.src('./src/*.html')
     .pipe(plumber())
-    .pipe(changed('dist'))
+    .pipe(changed('./dist'))
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
@@ -20,7 +20,7 @@ gulp.task('html:min', () => {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('./dist'))
     .pipe(browserSync.stream({
       match: '**/*.html'
     }));
@@ -32,7 +32,7 @@ gulp.task('html:test', () => {
 
   console.log('Running HTML lint test');
 
-  return gulp.src('src/*.html')
+  return gulp.src('./src/*.html')
     .pipe(plumber())
     .pipe(htmlhint())
     .pipe(htmlhint.reporter())
