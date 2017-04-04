@@ -1,10 +1,13 @@
+///
+// Main Sass file
+///
+
 // Core variables and mixins
 @import '_settings/_colors';
 @import '_settings/_timing-equations';
 @import '_settings/_config';
 
 @import '_tools/_mixins';
-@import '_tools/_placeholders';
 @import '_tools/_functions';
 
 /**
@@ -39,11 +42,10 @@
 
 // Templates
 @import '_templates/_template-default';
-@import '_templates/_grid';
 
 // Pages
 @import '_pages/_page-default';
 
 // Utilities
-@import "_utilities/_utilities";
+@import '_utilities/_utilities';
 @import '_utilities/_hacks';
