@@ -54,6 +54,8 @@ gulp.task('js:min', () => {
 gulp.task('js:test', () => {
   const eslint = require('gulp-eslint');
 
+  console.log('Running JavaScript lint test');
+
   return gulp.src('./src/js/main.js')
     .pipe(plumber())
     .pipe(eslint())
