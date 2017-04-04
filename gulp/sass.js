@@ -18,13 +18,10 @@ gulp.task('sass', () => {
   const processors = [
     cssnext({
       browsers: 'last 3 versions'
-    }),
-    cssnano({
-      autoprefixer: false
     })
   ];
 
-  return gulp.src('src/scss/main.scss')
+  return gulp.src('./src/scss/main.scss')
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass({
@@ -35,7 +32,7 @@ gulp.task('sass', () => {
     .pipe(csscomb())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream({
       match: '**/*.css'
     }));
@@ -52,7 +49,7 @@ gulp.task('sass:min', () => {
     })
   ];
 
-  return gulp.src('src/scss/main.scss')
+  return gulp.src('./src/scss/main.scss')
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass({
@@ -66,7 +63,7 @@ gulp.task('sass:min', () => {
       suffix: '.min'
     }))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('./dist/css'))
     .pipe(browserSync.stream({
       match: '**/*.css'
     }));

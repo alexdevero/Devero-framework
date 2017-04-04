@@ -9,15 +9,18 @@ gulp.task('images', () => {
   const plumber = require('gulp-plumber');
   const pngquant = require('imagemin-pngquant');
 
-  return gulp.src(['src/images/**/*', '!src/images/**/*.rar'])
-    .pipe(plumber())
-    .pipe(changed('dist/images'))
-    .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{
-        removeViewBox: false
-      }],
-      use: [pngquant()]
-    }))
-    .pipe(gulp.dest('dist/images'));
+  return gulp.src([
+      './src/images/**/*',
+      '!src/images/**/*.rar'
+    ])
+      .pipe(plumber())
+      .pipe(changed('./dist/images'))
+      .pipe(imagemin({
+        progressive: true,
+        svgoPlugins: [{
+          removeViewBox: false
+        }],
+        use: [pngquant()]
+      }))
+      .pipe(gulp.dest('./dist/images'));
 });

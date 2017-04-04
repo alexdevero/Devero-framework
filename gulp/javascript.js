@@ -18,11 +18,11 @@ gulp.task('js', () => {
   const babel = require('gulp-babel');
   const changed = require('gulp-changed');
 
-  return gulp.src('src/js/main.js')
+  return gulp.src('./src/js/main.js')
     .pipe(plumber())
-    .pipe(changed('dist/js'))
+    .pipe(changed('./dist/js'))
     .pipe(babel())
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('./dist/js'))
     .pipe(browserSync.stream({
       match: '**/*.js'
     }));
@@ -35,9 +35,9 @@ gulp.task('js:min', () => {
   const rename = require('gulp-rename');
   const uglify = require('gulp-uglify');
 
-  return gulp.src('src/js/main.js')
+  return gulp.src('./src/js/main.js')
     .pipe(plumber())
-    .pipe(changed('dist/js'))
+    .pipe(changed('./dist/js'))
     .pipe(babel())
     .pipe(uglify().on('error', (e) => {
       console.log(e + '\r\n There\'s something wrong with the JavaScript file(s).')
@@ -45,7 +45,7 @@ gulp.task('js:min', () => {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('./dist/js'))
     .pipe(browserSync.stream({
       match: '**/*.min.js'
     }));

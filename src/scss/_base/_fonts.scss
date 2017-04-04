@@ -21,3 +21,6 @@
   font-weight: 400;
   src: url(../fonts/Raleway-Regular.otf) format('truetype');
 }
+
+// Font Awesome
+@import './node_modules/font-awesome/scss/font-awesome'; // sass-lint:disable-line clean-import-paths
