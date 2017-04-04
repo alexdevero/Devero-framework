@@ -1,21 +1,19 @@
 ///
 // Settings - Global
 ///
-$radius--small: .125rem;// 2px
+
 $radius--big: .25rem;// 4px
 $radius--round: 62.5rem;// 1000px
-$timing: .25s;
+$radius--small: .125rem;// 2px
+$duration: .25s;
 
-///
 // Settings - Typography
-///
-$font--primary: "Quicksand", "Trebuchet MS", sans-serif;
-$font--secondary: "Raleway", arial, verdana, sans-serif;
+$font-family--primary: 'Quicksand', 'Trebuchet MS', sans-serif;
+$font-family--secondary: 'Raleway', arial, verdana, sans-serif;
+$font-size--base: 16px;
 
-///
 // Settings - Colors
-///
-$color--primary: $color--flat-pete-river;
-$color--secondary: $color--flat-alizarin;
-$color--tertiary: $color--flat-clouds;
-$color--link: $color--steel;
+$color--primary: palette-grabber($palette-flat, blue, pete-river);
+$color--secondary: palette-grabber($palette-flat, red, alizarin);
+$color--tertiary: palette-grabber($palette-flat, grey, clouds);
+$color--link: map-get($palette-foundation, steel);

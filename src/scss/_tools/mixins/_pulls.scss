@@ -1,6 +1,9 @@
+// Mixins for pulling utility classes
+
 @mixin pull--left {
-  float: left !important;
+  float: left !important; // sass-lint:disable-line no-important
 }
+
 @mixin pull--right {
-  float: right !important;
+  float: right !important; // sass-lint:disable-line no-important
 }

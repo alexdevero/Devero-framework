@@ -75,6 +75,8 @@ gulp.task('sass:min', () => {
 gulp.task('sass:test', () => {
   const sassLint = require('gulp-sass-lint');
 
+  console.log('Running Sass lint test');
+
   return gulp.src('./src/scss/**/*.scss')
     .pipe(plumber())
     .pipe(sassLint())

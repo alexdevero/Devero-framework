@@ -1,8 +1,9 @@
 // CSS image replacement
-@mixin text--hide() {
-  font: "0/0" a;
-  color: transparent;
+
+@mixin text--hide {
+  font: '0/0' a;
   text-shadow: none;
+  color: transparent;
   background-color: transparent;
   border: 0;
 }

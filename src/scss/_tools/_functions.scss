@@ -1,17 +1,21 @@
-//
+///
 // Functions
-//
-
-// Px to rem
-@function remy($target, $base: 16px) {
-  @return ($target / $base) * 1rem;
-}
+///
 
 // Color grabber
-@function palette($color, $shade: 500) {
-  $colorMap: map-get($palette, $color);
-
-  $result: map-get($colorMap, $shade);
+@function palette-grabber($palette, $color, $shade) {
+  $color-map: map-get($palette, $color);
+  $result: map-get($color-map, $shade);
 
   @return $result;
+}
+
+// Px to ems
+@function emy($target, $base: $font-size--base) {
+  @return ($target / $base) * 1em;
+}
+
+// Px to rems
+@function remy($target, $base: $font-size--base) {
+  @return ($target / $base) * 1rem;
 }
