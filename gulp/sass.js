@@ -18,9 +18,6 @@ gulp.task('sass', () => {
   const processors = [
     cssnext({
       browsers: 'last 3 versions'
-    }),
-    cssnano({
-      autoprefixer: false
     })
   ];
 
