@@ -1,7 +1,6 @@
 machine:
   node:
     version: 7.8.0
-    
   pre:
     - mkdir ~/.yarn-cache
 
@@ -10,6 +9,7 @@ dependencies:
     - '~/.yarn-cache'
   override:
     - yarn install
+    - npm rebuild node-sass
 
 test:
   override:
