@@ -11,7 +11,7 @@ node_modules/
 
 # Folders for inspiration and notes #
 #####################################
-_ignore/
+__ignore__/
 
 # Minified files #
 ##################
