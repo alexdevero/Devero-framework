@@ -50,11 +50,13 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^5.0.1",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^7.0.0",
     "postcss-preset-env": "^6.6.0",
     "require-dir": "^1.2.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
   }
 }
