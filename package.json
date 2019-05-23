@@ -1,31 +1,32 @@
 {
-  "name": "devero-framework",
+  "name": "devero-html-template-framework",
   "version": "1.1.0",
   "author": {
     "name": "Alex Devero",
     "url": "https://github.com/alexdevero"
   },
-  "email": "deveroalex@gmail.com",
-  "url": "http://alexdevero.com/demos/template--x",
   "description": "Devero Framework for theme and template development.",
+  "private": true,
   "engines": {
-    "node": ">=8.x",
-    "npm": ">=5.x"
+    "node": ">=11.0",
+    "npm": ">=6.0",
+    "yarn": ">=1.16.0"
   },
-  "homepage": "https://github.com/alexdevero/Devero-framework#readme",
+  "homepage": "https://github.com/alexdevero/devero-html-template-framework#readme",
   "bugs": {
-    "url": "https://github.com/alexdevero/Devero-framework/issues"
+    "url": "https://github.com/alexdevero/devero-html-template-framework/issues"
   },
   "license": "proprietary",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexdevero/Devero-framework.git"
+    "url": "https://github.com/alexdevero/devero-html-template-framework.git"
   },
   "scripts": {
     "build": "gulp clean && gulp build",
     "start": "gulp default",
     "test": "gulp test"
   },
+  "dependencies": {},
   "devDependencies": {
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
@@ -57,7 +58,5 @@
     "postcss-cssnext": "^3.0.2",
     "require-dir": "^0.3.2",
     "rimraf": "^2.6.2"
-  },
-  "private": true,
-  "dependencies": {}
+  }
 }
