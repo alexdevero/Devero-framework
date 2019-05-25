@@ -11,11 +11,11 @@
 }
 
 // Px to ems
-@function emy($target, $base: $font-size--base) {
+@function em($target, $base: var(--type-base)) {
   @return ($target / $base) * 1em;
 }
 
 // Px to rems
-@function remy($target, $base: $font-size--base) {
+@function rem($target, $base: var(--type-base)) {
   @return ($target / $base) * 1rem;
 }
