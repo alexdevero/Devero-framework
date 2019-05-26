@@ -2,16 +2,6 @@
 // Settings - Global
 ///
 
-$radius--big: .25rem;// 4px
-$radius--round: 62.5rem;// 1000px
-$radius--small: .125rem;// 2px
-$duration: .25s;
-
-// Settings - Typography
-$font-family--primary: 'Quicksand', 'Trebuchet MS', sans-serif;
-$font-family--secondary: 'Raleway', arial, verdana, sans-serif;
-$font-size--base: 16px;
-
 // Settings - Colors
 $color--primary: palette-grabber($palette-flat, blue, pete-river);
 $color--secondary: palette-grabber($palette-flat, red, alizarin);
