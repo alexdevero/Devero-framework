@@ -1,0 +1,27 @@
+/**
+ * Variables
+ */
+:root {
+  /* Breakpoints */
+  --br-xs: 480px;
+  --br-md: 576px;
+  --br-sm: 768px;
+  --br-lg: 992px;
+  --br-xl: 1200px;
+
+  /* Radius */
+  --rad-big: 4px;
+  --rad-round: 1000px;
+  --rad-small: 2px;
+
+  /* Transitions */
+  --tr-duration: .25s;
+  --tr-timing: ease-in-out;
+  --tr-full: all var(--tr-duration) var(--tr-timing);
+  --tr-part: var(--tr-duration) var(--tr-timing);
+
+  /* Typography */
+  --ff-primary: 'Roboto', 'Trebuchet MS', arial, verdana, sans-serif;
+  --ff-secondary: 'Raleway', arial, verdana, sans-serif;
+  --type-base: 16px;
+}
