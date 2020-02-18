@@ -1,0 +1,91 @@
+{
+  "name": "devero-html-template-framework",
+  "version": "1.0.0",
+  "description": "My framework for building templates and themes.",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "html",
+    "javascript",
+    "sass",
+    "template",
+    "website"
+  ],
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "pnpm": ">=4.0.0",
+    "yarn": ">=1.20.0"
+  },
+  "scripts": {
+    "build": "set NODE_ENV=build && gulp clean && gulp build",
+    "clean": "gulp clean",
+    "production": "set NODE_ENV=production && gulp clean && gulp build",
+    "start": "set NODE_ENV=development && gulp default",
+    "test": "set NODE_ENV=test && gulp test",
+    "zip": "gulp clean && gulp zip"
+  },
+  "homepage": "https://creativemarket.com/alexdevero/",
+  "bugs": {
+    "url": "https://creativemarket.com/alexdevero/"
+  },
+  "license": "proprietary",
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://github.com/alexdevero"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/devero-html-template-framework"
+  },
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "eslint": "6.8.0",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1",
+    "vanilla-lazyload": "12.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/register": "7.8.3",
+    "babel-loader": "8.0.6",
+    "browser-sync": "2.26.7",
+    "cssnano": "4.1.10",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-changed": "4.0.2",
+    "gulp-copy": "4.0.1",
+    "gulp-csscomb": "3.1.0",
+    "gulp-eslint": "6.0.0",
+    "gulp-hb": "8.0.0",
+    "gulp-htmlhint": "3.0.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-ignore": "3.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-prune": "0.2.0",
+    "gulp-remove-code": "3.0.4",
+    "gulp-rename": "1.4.0",
+    "gulp-rimraf": "1.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sass-lint": "1.4.0",
+    "gulp-sequence": "1.0.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-typescript": "5.0.1",
+    "gulp-uglify": "3.0.2",
+    "gulp-util": "3.0.8",
+    "gulp-zip": "5.0.1",
+    "imagemin-pngquant": "8.0.0",
+    "postcss-preset-env": "6.7.0",
+    "postcss-pxtorem": "4.0.1",
+    "require-dir": "1.2.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.5",
+    "webpack": "4.41.6",
+    "webpack-stream": "5.2.1"
+  }
+}
