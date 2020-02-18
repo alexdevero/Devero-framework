@@ -1,0 +1,18 @@
+/**
+ * Helper Classes
+ */
+
+.no-js .lazy, // sass-lint:disable-line force-element-nesting
+.item--hidden {
+  display: none;
+  visibility: hidden;
+}
+
+*[hidden] {
+  display: none;
+}
+
+.image-responsive {
+  width: 100%;
+  max-width: 100%;
+}

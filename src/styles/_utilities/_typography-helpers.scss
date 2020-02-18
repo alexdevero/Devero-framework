@@ -1,0 +1,48 @@
+/**
+ * Typography helpers
+ */
+
+.heading--primary {
+  text-transform: uppercase;
+}
+
+.heading--secondary {
+  color: #666;
+}
+
+.heading--tertiary {
+  color: #999;
+}
+
+.link--light {
+  color: #a7cef7;
+
+  &:focus,
+  &:hover {
+    color: #fff;
+  }
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--italic {
+  font-style: italic;
+}
+
+.text--light {
+  font-weight: 300;
+}
+
+.text--medium {
+  font-size: 1.25rem;
+}
+
+.text--small {
+  font-size: .75rem;
+}

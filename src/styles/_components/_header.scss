@@ -1,0 +1,10 @@
+/**
+ * Header
+ */
+
+header {
+  position: relative;
+  z-index: 3;
+
+  @include boxshadow-material(1);
+}

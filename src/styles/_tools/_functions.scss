@@ -1,0 +1,16 @@
+//
+// Sass functions
+//
+
+// Px to rem
+@function rem($target, $base: 16px) {
+  @return ($target / $base) * 1rem;
+}
+
+
+// Color grabber
+@function palette($color, $shade: 500) {
+  $color-map: map-get($palette, $color);
+  $result: map-get($color-map, $shade);
+  @return $result;
+}
