@@ -1,0 +1,23 @@
+{
+  "links": {
+    "about": "about.html",
+    "blog": "http://blog.alexdevero.com/",
+    "clients": "clients.html",
+    "contact": "contact.html",
+    "faq": "faq.html",
+    "home": "index.html",
+    "process": "process.html",
+    "work": "work.html"
+  },
+  "titles": {
+    "about": "Information about me",
+    "blog": "My blog about design, web development and business",
+    "clients": "Clients' testimonials",
+    "contact": "Contact form",
+    "faq": "Frequently asked questions",
+    "process": "Information about my design & development process",
+    "store": "Store with digital products I created",
+    "translation": "Czech version of the page",
+    "work": "Showcase of my work"
+  }
+}

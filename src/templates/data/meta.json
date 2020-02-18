@@ -1,0 +1,33 @@
+{
+ "basic": {
+	 "author": "name, email@email.com",
+	 "classification": "business",
+	 "content-security-policy": "default-src 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; style-src-elem 'self' 'unsafe-inline' https:; img-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' https:; connect-src 'self'",
+   "copyright": "company name",
+	 "coverage": "Worldwide",
+	 "description": "Bootstrap template Mirage.",
+	 "distribution": "Global",
+	 "googlebot": "index,follow",
+	 "handheldFriendly": "true",
+   "identifier-url": "http://www.url.com/",
+	 "language": "English",
+	 "rating": "General",
+	 "robots": "index,follow",
+	 "subject": "Your website's subject",
+	 "url": "http://www.url.com/",
+	 "viewport": "width=device-width, initial-scale=1"
+ },
+ "page-titles": {
+	 "about": "Bio | Mirage",
+   "blog": "Blog | Mirage",
+   "blog-post": "Blog post | Mirage",
+	 "clients": "Clients | Mirage",
+	 "contact": "Contact | Mirage",
+	 "error": "Page not Found | Mirage",
+	 "faq": "FAQ | Mirage",
+	 "project": "Project | Mirage",
+	 "home": "Mirage",
+	 "services": "Services | Mirage",
+	 "portfolio": "Portfolio | Mirage"
+ }
+}

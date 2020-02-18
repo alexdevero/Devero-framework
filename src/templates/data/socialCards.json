@@ -1,0 +1,21 @@
+{
+ "card-facebook": {
+	 "article-author": "Author's name",
+   "description": "Description of the website",
+	 "image": "http://www.url.com/img.jpg",
+	 "locale": "en_US",
+   "site-name": "Name of the website",
+   "title": "Title of the website",
+	 "type": "website",
+	 "url": "http://www.url.com"
+ },
+ "card-twitter": {
+	 "card": "summary",
+	 "creator": "@twitterUsername",
+   "description": "Description of the website",
+	 "image": "http://www.url.com/img.jpg",
+	 "site": "@twitterUsername",
+   "title": "Title of the website",
+	 "url": "http://www.url.com"
+ }
+}

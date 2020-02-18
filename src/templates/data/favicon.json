@@ -1,0 +1,10 @@
+{
+ "apple-touch-icon": "./images/favicon/apple-touch-icon.png",
+ "icon-32": "./images/favicon/favicon-32x32.png",
+ "icon-16": "./images/favicon/favicon-16x16.png",
+ "manifest": "./manifest.json",
+ "mask-icon": "./images/favicon/safari-pinned-tab.svg",
+ "msapplication-config": "./browserconfig.xml",
+ "shortcut-icon": "./images/favicon/favicon.ico",
+ "theme-color": "#ffffff"
+}
