@@ -1,0 +1,67 @@
+<!-- Google Analytics -->
+<!-- Scripts -->
+{{> google-analytics }}
+
+{{#if has-typedjs }}
+<!-- Typed.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+
+<script>
+  if (!window.typedjs) {
+    var typedjsEl = document.createElement("script");
+    typedjsEl.async = true;
+    typedjsEl.src = "./scripts/plugins/typed.min.js";
+    var bodyEl = document.querySelector("body");
+    bodyEl.appendChild(typedjsEl);
+  }
+</script>
+{{/if}}
+{{#if has-jquery }}
+<!-- jQuery library hosted on CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+  if (!window.jQuery) {
+    var jqueryEl = document.createElement("script");
+    jqueryEl.async = true;
+    jqueryEl.src = "./scripts/vendor/jquery.min.js";
+    var bodyEl = document.querySelector("body");
+    bodyEl.appendChild(jqueryEl);
+  }
+</script>
+{{/if}}
+{{#if has-waypoints }}
+<!-- Waypoints -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+<script>
+  if (!window.Waypoint) {
+    var waypointsEl = document.createElement("script");
+    waypointsEl.async = true;
+    waypointsEl.src = "./scripts/plugins/noframework.waypoints.min.js";
+    var bodyEl = document.querySelector("body");
+    bodyEl.appendChild(waypointsEl);
+  }
+</script>
+{{/if}}
+{{#if has-lazyload }}
+<!-- Lazyload for images -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script>
+  if (!window.lazyload) {
+    var lazyloadEl = document.createElement("script");
+    lazyloadEl.async = true;
+    lazyloadEl.src = "./scripts/plugins/jquery.lazyload.js";
+    var bodyEl = document.querySelector("body");
+    bodyEl.appendChild(lazyloadEl);
+  }
+
+  document.getElementsByClassName("no-js")[0].classList.remove("no-js");
+  let lazyImagesArray = document.querySelectorAll(".lazy");
+
+  lazyload(lazyImagesArray);
+</script>
+{{/if}}
+
+<!-- Main Scripts -->
+<script src="./scripts/main.js"></script>
